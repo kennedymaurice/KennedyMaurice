@@ -26,18 +26,23 @@ const footerLinks = [
     {
         title: "Services",
         links: [
-            { name: "Healthcare Consultancy", path: "/services" },
-            { name: "Medical Equipment Sourcing", path: "/services" },
-            { name: "Business Registration", path: "/services" },
-            { name: "Web Development", path: "/services" },
-            { name: "AI Training", path: "/services" },
-            { name: "Digital Marketing", path: "/services" },
+            { name: "Healthcare Consultancy", path: "/services#healthcare-business-consultancy" },
+            { name: "Medical Equipment Sourcing", path: "/services#medical-equipment-sourcing" },
+            { name: "Business Registration", path: "/services#business-registration-compliance" },
+            { name: "Web Development", path: "/services#web-development-digital-systems" },
+            { name: "AI Training", path: "/services#ai-training-digital-productivity" },
+            { name: "TVET Institutional Support", path: "/services#tvet-institutional-support" },
         ],
     },
 ];
 
 const Footer = () => {
     const year = new Date().getFullYear();
+    const whatsappMessage = encodeURIComponent(
+        "Hello Kennedy,\n\nI visited your website and I would like to inquire about your services.\n\nKindly guide me on the next steps."
+    );
+
+    const whatsappUrl = `https://wa.me/254737320000?text=${whatsappMessage}`;
 
     return (
         <footer className="bg-slate-950 text-white">
@@ -77,14 +82,6 @@ const Footer = () => {
                                 AI Training
                             </span>
                         </div>
-
-                        <Link
-                            to="/contact"
-                            className="mt-8 inline-flex items-center gap-3 rounded-full bg-teal-500 px-6 py-3 font-semibold text-slate-950 transition hover:bg-teal-400"
-                        >
-                            Book a Consultation
-                            <FaArrowRight className="text-xs" />
-                        </Link>
                     </div>
 
                     {/* Explore */}
@@ -166,7 +163,7 @@ const Footer = () => {
 
                     <div className="flex items-center gap-3">
                         <a
-                            href="https://wa.me/254737320000"
+                            href={whatsappUrl}
                             target="_blank"
                             rel="noreferrer"
                             aria-label="WhatsApp"

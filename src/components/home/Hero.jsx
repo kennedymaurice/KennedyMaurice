@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, CheckCircle2, Globe2, Stethoscope, Code2 } from "lucide-react";
 import { motion } from "framer-motion";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const highlights = [
     "Healthcare business consulting",
@@ -47,9 +48,10 @@ const Hero = () => {
 
                         <Link
                             to="/portfolio"
-                            className="inline-flex items-center justify-center rounded-full border border-white/30 px-7 py-4 text-sm font-bold text-white transition hover:bg-white/10"
+                            className="inline-flex items-center justify-center gap-2 rounded-full border border-white/30 px-7 py-4 text-sm font-bold text-white transition hover:bg-white/10"
                         >
                             View My Work
+                            <FaExternalLinkAlt className="h-4 w-4" />
                         </Link>
                     </div>
 

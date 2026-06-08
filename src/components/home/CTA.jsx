@@ -3,7 +3,9 @@ import { ArrowRight, Mail, MessageCircle } from "lucide-react";
 
 const CTA = () => {
     return (
-        <section className="bg-white py-6 md:py-12">
+        <section className="relative overflow-hidden bg-slate-50 py-6 md:py-12">
+            <div className="absolute left-0 top-0 h-96 w-96 rounded-full bg-teal-100 blur-3xl" />
+            <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-slate-200 blur-3xl" />
             <div className="mx-auto max-w-7xl px-5 lg:px-8">
                 <div className="relative overflow-hidden rounded-[1.5rem] bg-slate-950 p-5 md:p-8 text-white md:p-14">
                     <div className="absolute -left-24 top-0 h-80 w-80 rounded-full bg-teal-500/20 blur-3xl" />

@@ -34,7 +34,7 @@ export const projects = [
     {
         title: "Dr. Peter Waweru Website",
         category: "Professional Healthcare Website",
-        url: "#",
+        url: "https://www.peterwaweru.co.ke",
         description:
             "A professional personal website developed for a healthcare expert to present services, credibility, and professional profile.",
         services: ["Web Development", "Personal Branding", "Healthcare Website"],

@@ -1,12 +1,4 @@
-import {
-    Activity,
-    Building2,
-    Code2,
-    FileCheck2,
-    GraduationCap,
-    Megaphone,
-    PackageSearch,
-} from "lucide-react";
+import { Activity, Building2, Code2, FileCheck2, GraduationCap, PackageSearch } from "lucide-react";
 
 export const services = [
     {
@@ -15,12 +7,32 @@ export const services = [
         icon: Activity,
         description:
             "Practical consulting for healthcare startups, medical businesses, facilities, laboratories, and service providers.",
+        overview:
+            "I support healthcare entrepreneurs, facilities, laboratories, clinics and service providers with practical guidance on setup, operations, documentation, equipment planning, compliance readiness and growth strategy.",
         items: [
             "Healthcare startup advisory",
             "Health facility setup guidance",
             "Medical business operations support",
             "Laboratory business consultancy",
             "Healthcare documentation and systems",
+            "Operational structure development",
+            "SOP and policy guidance",
+            "Healthcare market positioning",
+        ],
+        idealFor: [
+            "Healthcare startups",
+            "Medical laboratories",
+            "Clinics and medical centres",
+            "Ambulance service providers",
+            "Healthcare investors",
+            "Private healthcare entrepreneurs",
+        ],
+        outcomes: [
+            "Clearer business setup direction",
+            "Better operational structure",
+            "Reduced startup mistakes",
+            "Improved compliance readiness",
+            "Stronger healthcare business positioning",
         ],
     },
     {
@@ -29,12 +41,32 @@ export const services = [
         icon: PackageSearch,
         description:
             "Support with sourcing, comparing, and coordinating procurement of medical, laboratory, institutional, and other equipment.",
+        overview:
+            "Through my healthcare and medical equipment background, I help clients identify suitable equipment, compare suppliers, review quotations, assess specifications and coordinate import or procurement processes with more confidence.",
         items: [
             "Medical equipment sourcing",
             "Laboratory equipment sourcing",
             "Supplier identification",
             "RFQ and quotation support",
             "Import coordination support",
+            "Technical specification review",
+            "Supplier comparison",
+            "Installation and user training coordination",
+        ],
+        idealFor: [
+            "Hospitals and clinics",
+            "Medical laboratories",
+            "Healthcare startups",
+            "Training institutions",
+            "NGOs and project implementers",
+            "Organizations procuring equipment internationally",
+        ],
+        outcomes: [
+            "Better equipment selection",
+            "Reduced supplier risk",
+            "Clearer procurement planning",
+            "Improved value for money",
+            "More reliable sourcing and import coordination",
         ],
     },
     {
@@ -43,12 +75,32 @@ export const services = [
         icon: FileCheck2,
         description:
             "Assistance with business setup, statutory registrations, and compliance documentation for entrepreneurs and organizations.",
+        overview:
+            "I help entrepreneurs and organizations choose the right legal structure, prepare registration requirements, understand post-registration documents and set up the basic compliance foundation needed to operate professionally.",
         items: [
             "Business name registration",
             "Company registration",
             "Partnership registration",
+            "Limited Liability Partnership guidance",
             "CBO and society registration",
             "KRA and AGPO support",
+            "Post-registration documentation guidance",
+            "Company profile and compliance support",
+        ],
+        idealFor: [
+            "New entrepreneurs",
+            "Consultants and professionals",
+            "Healthcare startups",
+            "SMEs",
+            "Community groups and societies",
+            "Organizations preparing for tenders",
+        ],
+        outcomes: [
+            "Proper legal structure selection",
+            "Cleaner registration process",
+            "Better compliance awareness",
+            "Improved business credibility",
+            "Clearer post-registration roadmap",
         ],
     },
     {
@@ -57,12 +109,32 @@ export const services = [
         icon: GraduationCap,
         description:
             "Support for training institutions, healthcare colleges, documentation, and regulatory processes.",
+        overview:
+            "I support training institutions with documentation, governance structures, MIS processes, quality assurance systems, policy development and operational readiness, especially for healthcare and TVET-focused institutions.",
         items: [
             "TVET MIS process support",
             "Institutional documentation",
             "Policy and contract drafting",
             "Quality assurance support",
             "Course and program structuring",
+            "Governance and organogram support",
+            "Trainer and staff documentation",
+            "Institutional website and digital presence support",
+        ],
+        idealFor: [
+            "TVET institutions",
+            "Healthcare training colleges",
+            "Private training centres",
+            "Institution founders",
+            "Education investors",
+            "Institutions preparing for compliance review",
+        ],
+        outcomes: [
+            "Better institutional readiness",
+            "Stronger documentation systems",
+            "Improved compliance preparation",
+            "Clearer governance structure",
+            "More professional institutional presentation",
         ],
     },
     {
@@ -71,12 +143,32 @@ export const services = [
         icon: Code2,
         description:
             "Development of professional websites, platforms, dashboards, and digital systems using modern technologies.",
+        overview:
+            "I build professional websites and digital platforms that help businesses improve credibility, visibility, client engagement and operational efficiency. My work spans React, MERN stack, WordPress, CMS tools and custom digital systems.",
         items: [
             "React and MERN stack development",
             "Business websites",
             "Institutional websites",
             "Marketplace platforms",
             "WordPress and CMS solutions",
+            "SEO structure and metadata",
+            "Admin dashboards",
+            "Custom business workflows",
+        ],
+        idealFor: [
+            "Healthcare businesses",
+            "Training institutions",
+            "Consultants and professionals",
+            "Medical equipment companies",
+            "Startups",
+            "Organizations needing custom platforms",
+        ],
+        outcomes: [
+            "Improved online credibility",
+            "Better lead generation",
+            "Stronger SEO foundation",
+            "More professional digital presence",
+            "Scalable digital systems",
         ],
     },
     {
@@ -85,12 +177,32 @@ export const services = [
         icon: Building2,
         description:
             "Training individuals and teams on how to use AI to improve productivity, content creation, documentation, and operations.",
+        overview:
+            "I train individuals, teams and organizations on practical AI adoption for everyday work, including writing, research, documentation, content creation, image generation, video creation, administration and business productivity.",
         items: [
             "AI literacy training",
             "Prompting for business users",
             "AI-assisted content creation",
             "AI video and image generation",
             "AI for admin and productivity workflows",
+            "AI for business documentation",
+            "AI for research and reporting",
+            "AI for marketing and social media",
+        ],
+        idealFor: [
+            "Business owners",
+            "Healthcare professionals",
+            "Administrative teams",
+            "Training institutions",
+            "Students and professionals",
+            "Organizations adopting AI tools",
+        ],
+        outcomes: [
+            "Improved productivity",
+            "Faster content creation",
+            "Better document preparation",
+            "More confident AI usage",
+            "Reduced repetitive manual work",
         ],
     },
 ];

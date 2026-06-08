@@ -22,7 +22,7 @@ const ContentBlock = ({ block }) => {
 
     if (block.type === "heading") {
         return (
-            <h2 className="mt-14 text-3xl font-black tracking-tight text-slate-950 md:text-4xl">
+            <h2 className="mt-6 md:mt-10 text-3xl font-black tracking-tight text-slate-950 md:text-4xl">
                 {block.text}
             </h2>
         );
@@ -94,6 +94,7 @@ const ContentBlock = ({ block }) => {
 const BlogDetails = () => {
     const { slug } = useParams();
     const blog = blogs.find((item) => item.slug === slug);
+    const otherInsights = blogs.filter((item) => item.slug !== slug).slice(0, 4);
 
     if (!blog) {
         return (
@@ -123,7 +124,7 @@ const BlogDetails = () => {
                 type="article"
             />
 
-            <section className="relative overflow-hidden bg-slate-950 pt-32 pb-20 text-white md:pt-40 md:pb-28">
+            <section className="relative overflow-hidden bg-slate-950 pt-32 pt-28 pb-6 text-white md:pt-30 md:pb-12">
                 <div className="absolute -left-32 top-20 h-96 w-96 rounded-full bg-teal-500/20 blur-3xl" />
                 <div className="absolute -right-32 bottom-10 h-96 w-96 rounded-full bg-yellow-500/10 blur-3xl" />
 
@@ -136,7 +137,7 @@ const BlogDetails = () => {
                         Back to Insights
                     </Link>
 
-                    <div className="mt-10 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+                    <div className="mt-10 grid gap-6 md:gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
                         <div>
                             <p className="text-sm font-black uppercase tracking-[0.25em] text-teal-300">
                                 {blog.category}
@@ -179,7 +180,7 @@ const BlogDetails = () => {
                 </div>
             </section>
 
-            <article className="bg-white py-16 md:py-24">
+            <article className="bg-white py-6 md:py-12">
                 <div className="mx-auto grid max-w-7xl gap-12 px-5 lg:grid-cols-[0.75fr_0.25fr] lg:px-8">
                     <div className="max-w-4xl">
                         {blog.content.map((block, index) => (
@@ -188,20 +189,57 @@ const BlogDetails = () => {
                     </div>
 
                     <aside className="hidden lg:block">
-                        <div className="sticky top-28 rounded-[2rem] border border-slate-200 bg-slate-50 p-6">
-                            <p className="text-sm font-black uppercase tracking-[0.2em] text-teal-700">
-                                Article Tags
-                            </p>
+                        <div className="sticky top-28 space-y-6">
+                            <div className="rounded-[2rem] border border-slate-200 bg-slate-50 p-6">
+                                <p className="text-sm font-black uppercase tracking-[0.2em] text-teal-700">
+                                    Article Tags
+                                </p>
 
-                            <div className="mt-5 flex flex-wrap gap-2">
-                                {blog.tags?.map((tag) => (
-                                    <span
-                                        key={tag}
-                                        className="rounded-full bg-white px-4 py-2 text-xs font-bold text-slate-600 ring-1 ring-slate-200"
-                                    >
-                                        {tag}
-                                    </span>
-                                ))}
+                                <div className="mt-5 flex flex-wrap gap-2">
+                                    {blog.tags?.map((tag) => (
+                                        <span
+                                            key={tag}
+                                            className="rounded-full bg-white px-4 py-2 text-xs font-bold text-slate-600 ring-1 ring-slate-200"
+                                        >
+                                            {tag}
+                                        </span>
+                                    ))}
+                                </div>
+                            </div>
+
+                            <div className="rounded-[2rem] border border-slate-200 bg-slate-50 p-6">
+                                <p className="text-sm font-black uppercase tracking-[0.2em] text-teal-700">
+                                    Other Insights
+                                </p>
+
+                                <div className="mt-5 space-y-4">
+                                    {otherInsights.map((item) => (
+                                        <Link
+                                            key={item.slug}
+                                            to={`/insights/${item.slug}`}
+                                            className="group block rounded-2xl border border-slate-200 bg-white p-4 transition hover:border-teal-200 hover:shadow-md"
+                                        >
+                                            <p className="text-xs font-black uppercase tracking-[0.16em] text-teal-700">
+                                                {item.category}
+                                            </p>
+
+                                            <h3 className="mt-2 text-sm font-black leading-6 text-slate-950 transition group-hover:text-teal-700">
+                                                {item.title}
+                                            </h3>
+
+                                            <p className="mt-2 line-clamp-2 text-xs leading-5 text-slate-500">
+                                                {item.excerpt}
+                                            </p>
+                                        </Link>
+                                    ))}
+                                </div>
+
+                                <Link
+                                    to="/insights"
+                                    className="mt-5 inline-flex text-sm font-bold text-teal-700 transition hover:text-slate-950"
+                                >
+                                    View all insights
+                                </Link>
                             </div>
                         </div>
                     </aside>

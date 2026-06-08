@@ -86,12 +86,12 @@ const About = () => {
                 path="/about"
             />
 
-            <section className="relative overflow-hidden bg-slate-950 pt-32 pb-20 text-white md:pt-40 md:pb-28">
+            <section className="relative overflow-hidden bg-slate-950 pt-28 pb-6 text-white md:pt-30 md:pb-12">
                 <div className="absolute left-0 top-0 h-[32rem] w-[32rem] rounded-full bg-teal-500/20 blur-3xl" />
                 <div className="absolute bottom-0 right-0 h-[32rem] w-[32rem] rounded-full bg-yellow-400/10 blur-3xl" />
 
                 <div className="relative mx-auto max-w-7xl px-5 lg:px-8">
-                    <div className="grid gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+                    <div className="grid gap-8 lg:gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
                         <div>
                             <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-teal-300 backdrop-blur">
                                 <Sparkles className="h-4 w-4" />
@@ -115,7 +115,7 @@ const About = () => {
                                 ideas into practical, working solutions.
                             </p>
 
-                            <div className="mt-10 grid gap-4 sm:grid-cols-3">
+                            <div className="hidden md:grid md:grid-cols-3 gap-4 mt-10">
                                 {["Healthcare", "Business", "Technology"].map((item) => (
                                     <div
                                         key={item}
@@ -154,9 +154,9 @@ const About = () => {
                 </div>
             </section>
 
-            <section className="bg-white py-20 md:py-28">
+            <section className="bg-white py-6 md:py-12">
                 <div className="mx-auto max-w-7xl px-5 lg:px-8">
-                    <div className="grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
+                    <div className="grid gap-6 md:gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
                         <div className="lg:sticky lg:top-28">
                             <span className="text-sm font-black uppercase tracking-[0.25em] text-teal-700">
                                 My Story
@@ -178,7 +178,7 @@ const About = () => {
                             {milestones.map((item, index) => (
                                 <div
                                     key={`${item.year}-${item.title}`}
-                                    className="group relative overflow-hidden rounded-[1.7rem] border border-slate-200 bg-slate-50 p-7 transition duration-300 hover:-translate-y-1 hover:border-teal-200 hover:bg-white hover:shadow-2xl hover:shadow-slate-200/70"
+                                    className="group relative overflow-hidden rounded-[1.7rem] border border-slate-200 bg-slate-50 p-6 transition duration-300 hover:-translate-y-1 hover:border-teal-200 hover:bg-white hover:shadow-2xl hover:shadow-slate-200/70"
                                 >
                                     <div className="absolute -right-6 -top-8 text-8xl font-black text-slate-100 transition group-hover:text-teal-50">
                                         {String(index + 1).padStart(2, "0")}
@@ -202,59 +202,9 @@ const About = () => {
                 </div>
             </section>
 
-            <section className="relative overflow-hidden bg-slate-50 py-20 md:py-28">
-                <div className="absolute left-0 top-0 h-96 w-96 rounded-full bg-teal-100 blur-3xl" />
-                <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-slate-200 blur-3xl" />
-
-                <div className="relative mx-auto max-w-7xl px-5 lg:px-8">
-                    <div className="mx-auto max-w-3xl text-center">
-                        <span className="text-sm font-black uppercase tracking-[0.25em] text-teal-700">
-                            What Makes Me Different
-                        </span>
-
-                        <h2 className="mt-5 text-4xl font-black tracking-tight text-slate-950 md:text-5xl">
-                            Strategy backed by hands-on execution.
-                        </h2>
-
-                        <p className="mt-6 text-lg leading-8 text-slate-600">
-                            I do not only advise. I help structure, document, digitize, source,
-                            train, build and implement.
-                        </p>
-                    </div>
-
-                    <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                        {strengths.map((item) => {
-                            const Icon = item.icon;
-
-                            return (
-                                <div
-                                    key={item.title}
-                                    className="group rounded-[1.7rem] border border-slate-200 bg-white p-7 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-teal-200 hover:shadow-2xl hover:shadow-slate-200/70"
-                                >
-                                    <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-slate-950 text-teal-300 transition group-hover:bg-teal-700 group-hover:text-white">
-                                        <Icon className="h-7 w-7" />
-                                    </div>
-
-                                    <h3 className="mt-7 text-xl font-black text-slate-950">
-                                        {item.title}
-                                    </h3>
-
-                                    <p className="mt-4 leading-8 text-slate-600">{item.text}</p>
-
-                                    <div className="mt-6 flex items-center gap-2 text-sm font-black text-teal-700 opacity-0 transition group-hover:opacity-100">
-                                        Learn more
-                                        <ArrowRight className="h-4 w-4" />
-                                    </div>
-                                </div>
-                            );
-                        })}
-                    </div>
-                </div>
-            </section>
-
-            <section className="bg-slate-950 py-20 text-white md:py-28">
+            <section className="bg-slate-950 py-6 text-white md:py-12">
                 <div className="mx-auto max-w-7xl px-5 lg:px-8">
-                    <div className="grid gap-10 rounded-[2rem] border border-white/10 bg-white/[0.06] p-8 backdrop-blur md:grid-cols-[1fr_0.8fr] md:p-12">
+                    <div className="grid gap-6 md:gap-12 rounded-[2rem] border border-white/10 bg-white/[0.06] p-6 md:p-8 backdrop-blur md:grid-cols-[1fr_0.8fr]">
                         <div>
                             <span className="text-sm font-black uppercase tracking-[0.25em] text-teal-300">
                                 My Positioning
@@ -287,6 +237,53 @@ const About = () => {
                                 </div>
                             ))}
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="relative overflow-hidden bg-slate-50 py-6 md:py-12">
+                <div className="absolute left-0 top-0 h-96 w-96 rounded-full bg-teal-100 blur-3xl" />
+                <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-slate-200 blur-3xl" />
+
+                <div className="relative mx-auto max-w-7xl px-5 lg:px-8">
+                    <div className="mx-auto max-w-3xl text-center">
+                        <span className="text-sm font-black uppercase tracking-[0.25em] text-teal-700">
+                            What Makes Me Different
+                        </span>
+
+                        <h2 className="mt-5 text-4xl font-black tracking-tight text-slate-950 md:text-5xl">
+                            Strategy backed by hands-on execution.
+                        </h2>
+
+                        <p className="mt-6 text-lg leading-8 text-slate-600">
+                            I do not only advise. I help structure, document, digitize, source,
+                            train, build and implement.
+                        </p>
+                    </div>
+
+                    <div className="mt-6 md:mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                        {strengths.map((item) => {
+                            const Icon = item.icon;
+
+                            return (
+                                <div
+                                    key={item.title}
+                                    className="group rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-teal-200 hover:shadow-2xl hover:shadow-slate-200/70"
+                                >
+                                    <div className="flex items-center gap-4">
+                                        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-slate-950 text-teal-300 transition group-hover:bg-teal-700 group-hover:text-white">
+                                            <Icon className="h-7 w-7" />
+                                        </div>
+
+                                        <h3 className="text-xl font-black text-slate-950">
+                                            {item.title}
+                                        </h3>
+                                    </div>
+
+                                    <p className="mt-4 leading-8 text-slate-600">{item.text}</p>
+                                </div>
+                            );
+                        })}
                     </div>
                 </div>
             </section>

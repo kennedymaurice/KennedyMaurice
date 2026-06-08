@@ -13,17 +13,17 @@ const Insights = () => {
                 path="/insights"
             />
 
-            <section className="relative overflow-hidden bg-slate-950 pt-32 pb-20 text-white md:pt-40 md:pb-28">
-                <div className="absolute -left-32 top-20 h-96 w-96 rounded-full bg-teal-500/20 blur-3xl" />
-                <div className="absolute -right-32 bottom-10 h-96 w-96 rounded-full bg-yellow-500/10 blur-3xl" />
+            <section className="relative overflow-hidden bg-slate-950 pt-32 pt-28 pb-6 text-white md:pt-30 md:pb-12">
+                <div className="absolute left-0 top-0 h-[32rem] w-[32rem] rounded-full bg-teal-500/20 blur-3xl" />
+                <div className="absolute bottom-0 right-0 h-[32rem] w-[32rem] rounded-full bg-yellow-400/10 blur-3xl" />
 
                 <div className="relative mx-auto max-w-7xl px-5 lg:px-8">
                     <div className="max-w-4xl">
-                        <span className="inline-flex rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.25em] text-teal-300">
+                        <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-teal-300 backdrop-blur">
                             Insights
-                        </span>
+                        </div>
 
-                        <h1 className="mt-6 text-4xl font-black tracking-tight md:text-6xl">
+                        <h1 className="mt-5 text-2xl font-bold tracking-tight md:text-4xl lg:text-5xl">
                             Practical thinking for healthcare, business, technology and growth.
                         </h1>
 
@@ -36,7 +36,7 @@ const Insights = () => {
                 </div>
             </section>
 
-            <section className="relative overflow-hidden bg-white py-20 md:py-28">
+            <section className="relative overflow-hidden bg-white py-6 md:py-12">
                 <div className="absolute left-0 top-0 h-80 w-80 rounded-full bg-teal-50 blur-3xl" />
                 <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-slate-100 blur-3xl" />
 
@@ -61,7 +61,7 @@ const Insights = () => {
                         </div>
 
                         <div className="rounded-3xl bg-white p-6 shadow-sm">
-                            <p className="text-4xl font-black text-teal-700">6+</p>
+                            <p className="text-4xl font-black text-teal-700">12+</p>
                             <p className="mt-2 text-sm font-semibold uppercase tracking-wider text-slate-500">
                                 Planned Expert Guides
                             </p>

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import SplashScreen from "./components/layout/SplashScreen";
+import ScrollToHash from "./components/layout/ScrollToHash";
 import MainLayout from "./layouts/MainLayout";
 import ScrollToTop from "./utils/ScrollToTop";
 import BackToTop from "./components/layout/BackToTop";
@@ -29,6 +30,7 @@ const App = () => {
 
     return (
         <BrowserRouter>
+            <ScrollToHash />
             <div className="min-h-screen bg-slate-50 text-slate-950">
                 <ScrollToTop />
                 <Routes>

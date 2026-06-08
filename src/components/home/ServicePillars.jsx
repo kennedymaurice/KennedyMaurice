@@ -68,7 +68,7 @@ const ServicePillars = () => {
 
                                 <div className="relative mt-auto pt-8">
                                     <Link
-                                        to="/services"
+                                        to={`/services#${service.slug}`}
                                         className="inline-flex items-center gap-2 rounded-full bg-slate-950 px-5 py-3 text-sm font-bold text-white transition hover:bg-teal-700"
                                     >
                                         Explore Service
