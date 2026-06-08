@@ -4,7 +4,7 @@ import { services } from "../../data/services";
 
 const ServicePillars = () => {
     return (
-        <section className="relative overflow-hidden bg-slate-50 py-20 md:py-28">
+        <section className="relative overflow-hidden bg-slate-50 py-6 md:py-12">
             <div className="absolute left-0 top-0 h-80 w-80 rounded-full bg-teal-100/70 blur-3xl" />
             <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-yellow-100/60 blur-3xl" />
 
@@ -25,7 +25,7 @@ const ServicePillars = () => {
                     </p>
                 </div>
 
-                <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <div className="mt-6 md:mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                     {services.map((service, index) => {
                         const Icon = service.icon;
 
@@ -80,7 +80,7 @@ const ServicePillars = () => {
                     })}
                 </div>
 
-                <div className="mt-14 rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm md:p-8">
+                <div className="mt-6 md:mt-8 rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm md:p-8">
                     <div className="grid gap-6 md:grid-cols-[1.2fr_0.8fr] md:items-center">
                         <div>
                             <h3 className="text-2xl font-black tracking-tight text-slate-950">

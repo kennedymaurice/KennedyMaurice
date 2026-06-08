@@ -11,10 +11,10 @@ const highlights = [
 
 const Hero = () => {
     return (
-        <section className="relative overflow-hidden bg-slate-950 pt-32 text-white md:pt-40">
+        <section className="relative overflow-hidden bg-slate-950 pt-28 text-white md:pt-30">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(20,184,166,0.25),transparent_35%),radial-gradient(circle_at_bottom_left,rgba(234,179,8,0.16),transparent_30%)]" />
 
-            <div className="relative mx-auto grid max-w-7xl items-center gap-14 px-5 pb-20 lg:grid-cols-2 lg:px-8 lg:pb-28">
+            <div className="relative mx-auto grid max-w-7xl items-center gap-6 md:gap-14 px-5 pb-12 lg:grid-cols-2 lg:px-8 lg:pb-16">
                 <motion.div
                     initial={{ opacity: 0, y: 28 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -22,7 +22,7 @@ const Hero = () => {
                 >
                     <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-teal-100 backdrop-blur">
                         <Globe2 className="h-4 w-4 text-teal-300" />
-                        Healthcare • Business • Technology • Market Access
+                        Healthcare • Business • Technology
                     </div>
 
                     <h1 className="max-w-4xl text-2xl font-bold tracking-tight md:text-4xl lg:text-5xl">
@@ -36,7 +36,7 @@ const Hero = () => {
                         support.
                     </p>
 
-                    <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+                    <div className="mt-6 md:mt-8 flex flex-col gap-4 sm:flex-row">
                         <Link
                             to="/contact"
                             className="inline-flex items-center justify-center gap-2 rounded-full bg-teal-500 px-7 py-4 text-sm font-bold text-slate-950 transition hover:bg-teal-400"
@@ -47,13 +47,13 @@ const Hero = () => {
 
                         <Link
                             to="/portfolio"
-                            className="inline-flex items-center justify-center rounded-full border border-white/15 px-7 py-4 text-sm font-bold text-white transition hover:bg-white/10"
+                            className="inline-flex items-center justify-center rounded-full border border-white/30 px-7 py-4 text-sm font-bold text-white transition hover:bg-white/10"
                         >
                             View My Work
                         </Link>
                     </div>
 
-                    <div className="mt-10 grid gap-3 sm:grid-cols-2">
+                    <div className="mt-6 md:mt-8 grid gap-3 sm:grid-cols-2">
                         {highlights.map((item) => (
                             <div
                                 key={item}

@@ -6,7 +6,7 @@ const FeaturedProjects = () => {
     const featuredProjects = projects.slice(0, 4);
 
     return (
-        <section className="relative overflow-hidden bg-white py-20 md:py-28">
+        <section className="relative overflow-hidden bg-white py-6 md:py-12">
             <div className="absolute -left-32 top-20 h-96 w-96 rounded-full bg-teal-50 blur-3xl" />
             <div className="absolute -right-32 bottom-20 h-96 w-96 rounded-full bg-slate-100 blur-3xl" />
 
@@ -37,7 +37,7 @@ const FeaturedProjects = () => {
                     </Link>
                 </div>
 
-                <div className="mt-16 grid gap-7 md:grid-cols-2">
+                <div className="mt-6 md:mt-8 grid gap-7 md:grid-cols-2">
                     {featuredProjects.map((project, index) => (
                         <article
                             key={project.title}

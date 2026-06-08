@@ -53,7 +53,7 @@ const credentials = [
 
 const Credibility = () => {
     return (
-        <section className="bg-white py-16 md:py-24">
+        <section className="bg-white py-6 md:py-12">
             <div className="mx-auto max-w-7xl px-5 lg:px-8">
                 <div className="max-w-3xl">
                     <span className="inline-flex rounded-full border border-teal-200 bg-teal-50 px-4 py-2 text-xs font-black uppercase tracking-[0.25em] text-teal-700">
@@ -72,7 +72,7 @@ const Credibility = () => {
                     </p>
                 </div>
 
-                <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+                <div className="mt-6 md:mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
                     {credentials.map((item) => {
                         const Icon = item.icon;
 

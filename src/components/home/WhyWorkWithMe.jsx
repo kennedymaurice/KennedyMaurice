@@ -49,7 +49,7 @@ const reasons = [
 
 const WhyWorkWithMe = () => {
     return (
-        <section className="bg-slate-950 py-20 text-white md:py-28">
+        <section className="bg-slate-950 py-6 md:py-12 text-white">
             <div className="mx-auto max-w-7xl px-5 lg:px-8">
                 <div className="max-w-3xl">
                     <span className="inline-flex rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-black uppercase tracking-[0.25em] text-teal-300 backdrop-blur">
@@ -68,7 +68,7 @@ const WhyWorkWithMe = () => {
                     </p>
                 </div>
 
-                <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <div className="mt-6 md:mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                     {reasons.map((reason, index) => {
                         const Icon = reason.icon;
 
@@ -108,7 +108,7 @@ const WhyWorkWithMe = () => {
                     })}
                 </div>
 
-                <div className="mt-20 rounded-[2rem] border border-white/10 bg-white/[0.03] p-8 backdrop-blur-xl md:p-10">
+                <div className="mt-6 md:mt-8 rounded-[2rem] border border-white/10 bg-white/[0.03] p-8 backdrop-blur-xl md:p-10">
                     <div className="grid gap-8 md:grid-cols-4">
                         <div>
                             <p className="text-5xl font-black text-teal-300">8+</p>
