@@ -367,8 +367,6 @@ ${formData.message}
                     </div>
                 </div>
             </section>
-
-            <CTA />
         </>
     );
 };

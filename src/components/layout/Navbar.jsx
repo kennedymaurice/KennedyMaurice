@@ -146,10 +146,6 @@ Kindly guide me on the next steps.
                                 Kennedy Maurice
                             </p>
 
-                            <h2 className="mt-3 text-2xl font-black leading-tight">
-                                Healthcare Business, Digital Systems & Market Access Consultant
-                            </h2>
-
                             <p className="mt-4 text-sm leading-7 text-slate-300">
                                 Helping organizations establish, digitize, comply, procure, market
                                 and grow.
@@ -195,31 +191,6 @@ Kindly guide me on the next steps.
                                 Book Consultation
                                 <FaArrowRight className="text-xs" />
                             </Link>
-                        </div>
-
-                        <div className="mt-auto pt-8">
-                            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p className="text-xs font-black uppercase tracking-[0.2em] text-slate-500">
-                                    Core Areas
-                                </p>
-
-                                <div className="mt-4 flex flex-wrap gap-2">
-                                    {[
-                                        "Healthcare",
-                                        "Business",
-                                        "Technology",
-                                        "AI",
-                                        "Procurement",
-                                    ].map((item) => (
-                                        <span
-                                            key={item}
-                                            className="rounded-full bg-white px-4 py-2 text-xs font-bold text-slate-600 ring-1 ring-slate-200"
-                                        >
-                                            {item}
-                                        </span>
-                                    ))}
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
