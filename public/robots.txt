@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.kennedymaurice.co.ke/sitemap.xml
+Sitemap: https://www.kennedymaurice.com/sitemap.xml

@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 
 const SITE_NAME = "Kennedy Maurice";
-const SITE_URL = "https://www.kennedymaurice.co.ke";
+const SITE_URL = "https://www.kennedymaurice.com";
 
 const SEO = ({
     title,

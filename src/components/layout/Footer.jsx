@@ -133,11 +133,11 @@ const Footer = () => {
                     </div>
 
                     <a
-                        href="mailto:info@kennedymaurice.co.ke"
+                        href="mailto:info@kennedymaurice.com"
                         className="flex items-center gap-3 text-sm text-slate-400 transition hover:text-teal-300"
                     >
                         <FaEnvelope className="text-lg text-teal-300" />
-                        info@kennedymaurice.co.ke
+                        info@kennedymaurice.com
                     </a>
 
                     <a

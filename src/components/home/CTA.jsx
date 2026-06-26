@@ -44,7 +44,7 @@ const CTA = () => {
                                 </Link>
 
                                 <a
-                                    href="mailto:info@kennedymaurice.co.ke"
+                                    href="mailto:info@kennedymaurice.com"
                                     className="flex items-center justify-center gap-2 rounded-full border border-white/15 px-6 py-4 text-sm font-bold text-white transition hover:bg-white/10"
                                 >
                                     <Mail className="h-4 w-4" />
