@@ -28,7 +28,7 @@ const SplashScreen = () => {
                 <img
                     src="/kennedy-maurice.webp"
                     alt="Dr. Kennedy Maurice Photo"
-                    className="h-20 w-auto object-contain sm:h-24"
+                    className="h-20 w-auto object-contain sm:h-24 rounded-[1.5rem]"
                 />
             </motion.div>
 
@@ -45,7 +45,9 @@ const SplashScreen = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.45 }}
             >
-                Kennedy Maurice
+                <span className="bg-gradient-to-r from-[#ff7d09] via-[#ffb347] to-[#03DAC6] bg-clip-text text-transparent">
+                    Kennedy Maurice
+                </span>
             </motion.h1>
 
             <motion.p

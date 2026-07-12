@@ -98,7 +98,10 @@ const About = () => {
                             </div>
 
                             <h1 className="mt-5 text-2xl font-bold tracking-tight md:text-4xl lg:text-5xl">
-                                I build at the intersection of healthcare, business and technology.
+                                I build at the intersection of{" "}
+                                <span className="bg-gradient-to-r from-[#ff7d09] via-[#ffb347] to-[#03DAC6] bg-clip-text text-transparent">
+                                    healthcare, business and technology.
+                                </span>
                             </h1>
 
                             <p className="mt-7 max-w-3xl text-lg leading-8 text-slate-300">
@@ -183,7 +186,7 @@ const About = () => {
                                     key={`${item.year}-${item.title}`}
                                     className="group relative overflow-hidden rounded-[1.7rem] border border-slate-200 bg-slate-50 p-6 transition duration-300 hover:-translate-y-1 hover:border-[#ff7d09]/30 hover:bg-white hover:shadow-2xl hover:shadow-slate-200/70"
                                 >
-                                    <div className="absolute -right-6 -top-8 text-8xl font-black text-slate-100 transition group-hover:text-[#ff7d09]/15">
+                                    <div className="absolute right-6 top-6 text-7xl font-black leading-none text-slate-100 transition group-hover:text-[#ff7d09]/15 dark:!text-[rgba(255,255,255,0.10)] dark:group-hover:!text-[#03DAC6]/15">
                                         {String(index + 1).padStart(2, "0")}
                                     </div>
 

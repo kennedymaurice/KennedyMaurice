@@ -34,7 +34,7 @@ const ServicePillars = () => {
                                 key={service.slug}
                                 className="group relative flex min-h-[420px] flex-col overflow-hidden rounded-[2rem] border border-slate-200 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#ff7d09]/30 hover:shadow-2xl hover:shadow-slate-200/70"
                             >
-                                <div className="absolute right-6 top-6 text-7xl font-black leading-none text-slate-100 transition group-hover:text-[#ff7d09]/15">
+                                <div className="absolute right-2 top-3 text-7xl font-black leading-none text-slate-100 transition group-hover:text-[#ff7d09]/15 dark:!text-[rgba(255,255,255,0.10)] dark:group-hover:!text-[#03DAC6]/15">
                                     {String(index + 1).padStart(2, "0")}
                                 </div>
 

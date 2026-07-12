@@ -43,7 +43,7 @@ const FeaturedProjects = () => {
                             key={project.title}
                             className="group relative overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-50 p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#ff7d09]/30 hover:bg-white hover:shadow-2xl hover:shadow-slate-200/70"
                         >
-                            <div className="absolute -right-8 -top-8 flex h-28 w-28 items-center justify-center rounded-full bg-white text-5xl font-black text-slate-100 transition group-hover:bg-[#ff7d09]/10 group-hover:text-[#d7fffb]">
+                            <div className="absolute -right-3 -top-8 flex h-28 w-28 items-center justify-center rounded-full bg-white text-5xl font-black text-slate-100 transition group-hover:bg-[#ff7d09]/10 group-hover:text-[#d7fffb] text-slate-100 transition group-hover:text-[#ff7d09]/15 dark:!text-[rgba(255,255,255,0.10)] dark:group-hover:!text-[#03DAC6]/15">
                                 {String(index + 1).padStart(2, "0")}
                             </div>
 
