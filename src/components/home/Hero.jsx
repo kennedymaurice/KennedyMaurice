@@ -12,8 +12,8 @@ const highlights = [
 
 const Hero = () => {
     return (
-        <section className="relative overflow-hidden bg-slate-950 pt-28 text-white md:pt-30">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(20,184,166,0.25),transparent_35%),radial-gradient(circle_at_bottom_left,rgba(234,179,8,0.16),transparent_30%)]" />
+        <section className="relative overflow-hidden bg-gradient-to-br from-[#100484] via-[#16045f] to-[#02040d] pt-28 text-white md:pt-30">
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(3,218,198,0.22),transparent_35%),radial-gradient(circle_at_bottom_left,rgba(255,125,9,0.18),transparent_30%)]" />
 
             <div className="relative mx-auto grid max-w-7xl items-center gap-6 md:gap-14 px-5 pb-12 lg:grid-cols-2 lg:px-8 lg:pb-16">
                 <motion.div
@@ -21,13 +21,17 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7 }}
                 >
-                    <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-teal-100 backdrop-blur">
-                        <Globe2 className="h-4 w-4 text-teal-300" />
+                    <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-[#d7fffb] backdrop-blur">
+                        <Globe2 className="h-4 w-4 text-[#03DAC6]" />
                         Healthcare • Business • Technology
                     </div>
 
                     <h1 className="max-w-4xl text-2xl font-bold tracking-tight md:text-4xl lg:text-5xl">
-                        Building businesses, digital platforms & healthcare solutions.
+                        Building businesses,{" "}
+                        <span className="bg-gradient-to-r from-[#ff7d09] via-[#ffb347] to-[#03DAC6] bg-clip-text text-transparent">
+                            digital platforms & healthcare solutions
+                        </span>
+                        .
                     </h1>
 
                     <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300 md:text-xl">
@@ -40,7 +44,7 @@ const Hero = () => {
                     <div className="mt-6 md:mt-8 flex flex-col gap-4 sm:flex-row">
                         <Link
                             to="/contact"
-                            className="inline-flex items-center justify-center gap-2 rounded-full bg-teal-500 px-7 py-4 text-sm font-bold text-slate-950 transition hover:bg-teal-400"
+                            className="inline-flex items-center justify-center gap-2 rounded-full bg-[#ff7d09] px-7 py-4 text-sm font-bold text-white transition hover:bg-[#100484]"
                         >
                             Book a Consultation
                             <ArrowRight className="h-4 w-4" />
@@ -61,7 +65,7 @@ const Hero = () => {
                                 key={item}
                                 className="flex items-center gap-3 text-sm text-slate-300"
                             >
-                                <CheckCircle2 className="h-5 w-5 text-teal-300" />
+                                <CheckCircle2 className="h-5 w-5 text-[#03DAC6]" />
                                 {item}
                             </div>
                         ))}
@@ -75,7 +79,7 @@ const Hero = () => {
                     className="relative"
                 >
                     <div className="relative mx-auto max-w-md rounded-[2rem] border border-white/10 bg-white/10 p-4 shadow-2xl backdrop-blur">
-                        <div className="overflow-hidden rounded-[1.5rem] bg-slate-900">
+                        <div className="overflow-hidden rounded-[1.5rem] bg-[#16045f]">
                             <img
                                 src="/kennedy-maurice.webp"
                                 alt="Kennedy Maurice"
@@ -83,8 +87,8 @@ const Hero = () => {
                             />
                         </div>
 
-                        <div className="absolute -bottom-6 left-6 right-6 rounded-3xl border border-white/10 bg-slate-900/95 p-5 shadow-2xl backdrop-blur">
-                            <p className="text-sm font-semibold text-teal-300">Kennedy Maurice</p>
+                        <div className="absolute -bottom-6 left-6 right-6 rounded-3xl border border-white/10 bg-[#16045f]/95 p-5 shadow-2xl backdrop-blur">
+                            <p className="text-sm font-semibold text-[#03DAC6]">Kennedy Maurice</p>
                             <p className="mt-1 text-sm text-slate-300">
                                 Healthcare Business, Digital Systems & Market Access Consultant
                             </p>
@@ -92,11 +96,11 @@ const Hero = () => {
                     </div>
 
                     <div className="absolute -left-5 top-10 hidden rounded-2xl border border-white/10 bg-white/10 p-4 backdrop-blur md:block">
-                        <Stethoscope className="h-7 w-7 text-teal-300" />
+                        <Stethoscope className="h-7 w-7 text-[#03DAC6]" />
                     </div>
 
                     <div className="absolute -right-5 bottom-24 hidden rounded-2xl border border-white/10 bg-white/10 p-4 backdrop-blur md:block">
-                        <Code2 className="h-7 w-7 text-yellow-300" />
+                        <Code2 className="h-7 w-7 text-[#ffb347]" />
                     </div>
                 </motion.div>
             </div>

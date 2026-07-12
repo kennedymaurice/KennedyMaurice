@@ -5,12 +5,12 @@ import { services } from "../../data/services";
 const ServicePillars = () => {
     return (
         <section className="relative overflow-hidden bg-slate-50 py-6 md:py-12">
-            <div className="absolute left-0 top-0 h-80 w-80 rounded-full bg-teal-100/70 blur-3xl" />
-            <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-yellow-100/60 blur-3xl" />
+            <div className="absolute left-0 top-0 h-80 w-80 rounded-full bg-[#ff7d09]/15 blur-3xl" />
+            <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-[#03DAC6]/12 blur-3xl" />
 
             <div className="relative mx-auto max-w-7xl px-5 lg:px-8">
                 <div className="mx-auto max-w-4xl text-center">
-                    <span className="inline-flex rounded-full border border-teal-200 bg-white px-4 py-2 text-xs font-black uppercase tracking-[0.25em] text-teal-700 shadow-sm">
+                    <span className="inline-flex rounded-full border border-[#ff7d09]/30 bg-white px-4 py-2 text-xs font-black uppercase tracking-[0.25em] text-[#ff7d09] shadow-sm">
                         What I Do
                     </span>
 
@@ -32,14 +32,14 @@ const ServicePillars = () => {
                         return (
                             <div
                                 key={service.slug}
-                                className="group relative flex min-h-[420px] flex-col overflow-hidden rounded-[2rem] border border-slate-200 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-teal-200 hover:shadow-2xl hover:shadow-slate-200/70"
+                                className="group relative flex min-h-[420px] flex-col overflow-hidden rounded-[2rem] border border-slate-200 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#ff7d09]/30 hover:shadow-2xl hover:shadow-slate-200/70"
                             >
-                                <div className="absolute right-6 top-6 text-7xl font-black leading-none text-slate-100 transition group-hover:text-teal-50">
+                                <div className="absolute right-6 top-6 text-7xl font-black leading-none text-slate-100 transition group-hover:text-[#ff7d09]/15">
                                     {String(index + 1).padStart(2, "0")}
                                 </div>
 
                                 <div className="relative flex items-center gap-4">
-                                    <div className="flex h-13 w-13 shrink-0 items-center justify-center rounded-2xl bg-slate-950 text-teal-300 shadow-lg shadow-slate-200 transition group-hover:bg-teal-700 group-hover:text-white">
+                                    <div className="flex h-13 w-13 shrink-0 items-center justify-center rounded-2xl bg-[#100484] text-[#03DAC6] shadow-lg shadow-slate-200 transition group-hover:bg-[#ff7d09] group-hover:text-white">
                                         <Icon className="h-6 w-6" />
                                     </div>
 
@@ -52,7 +52,7 @@ const ServicePillars = () => {
                                     {service.description}
                                 </p>
 
-                                <div className="relative mt-7 h-px w-full bg-gradient-to-r from-teal-200 via-slate-200 to-transparent" />
+                                <div className="relative mt-7 h-px w-full bg-gradient-to-r from-[#ff7d09]/35 via-[#1667FF]/20 to-transparent" />
 
                                 <ul className="relative mt-6 space-y-3">
                                     {service.items.slice(0, 4).map((item) => (
@@ -60,7 +60,7 @@ const ServicePillars = () => {
                                             key={item}
                                             className="flex gap-3 text-sm leading-6 text-slate-600"
                                         >
-                                            <FaCircleCheck className="mt-1 shrink-0 text-sm text-teal-700" />
+                                            <FaCircleCheck className="mt-1 shrink-0 text-sm text-[#199221]" />
                                             <span>{item}</span>
                                         </li>
                                     ))}
@@ -69,7 +69,7 @@ const ServicePillars = () => {
                                 <div className="relative mt-auto pt-8">
                                     <Link
                                         to={`/services#${service.slug}`}
-                                        className="inline-flex items-center gap-2 rounded-full bg-slate-950 px-5 py-3 text-sm font-bold text-white transition hover:bg-teal-700"
+                                        className="inline-flex items-center gap-2 rounded-full bg-[#100484] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#ff7d09]"
                                     >
                                         Explore Service
                                         <FaArrowRight className="text-xs" />
@@ -98,7 +98,7 @@ const ServicePillars = () => {
                         <div className="flex md:justify-end">
                             <Link
                                 to="/contact"
-                                className="inline-flex items-center gap-2 rounded-full bg-teal-700 px-6 py-4 text-sm font-bold text-white transition hover:bg-teal-800"
+                                className="inline-flex items-center gap-2 rounded-full bg-[#ff7d09] px-6 py-4 text-sm font-bold text-white transition hover:bg-[#100484]"
                             >
                                 Discuss Your Project
                                 <FaArrowRight className="text-xs" />

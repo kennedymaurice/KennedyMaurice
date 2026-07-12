@@ -56,7 +56,7 @@ const Credibility = () => {
         <section className="bg-white py-6 md:py-12">
             <div className="mx-auto max-w-7xl px-5 lg:px-8">
                 <div className="max-w-3xl">
-                    <span className="inline-flex rounded-full border border-teal-200 bg-teal-50 px-4 py-2 text-xs font-black uppercase tracking-[0.25em] text-teal-700">
+                    <span className="inline-flex rounded-full border border-[#ff7d09]/30 bg-[#ff7d09]/10 px-4 py-2 text-xs font-black uppercase tracking-[0.25em] text-[#ff7d09]">
                         Credibility & Experience
                     </span>
 
@@ -79,10 +79,10 @@ const Credibility = () => {
                         return (
                             <div
                                 key={`${item.title}-${item.detail}`}
-                                className="group rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-teal-200 hover:shadow-xl"
+                                className="group rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#ff7d09]/30 hover:shadow-xl"
                             >
                                 <div className="flex items-center gap-4">
-                                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-teal-50 text-teal-700 transition group-hover:bg-teal-700 group-hover:text-white">
+                                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#ff7d09]/10 text-[#ff7d09] transition group-hover:bg-[#ff7d09] group-hover:text-white">
                                         <Icon className="h-5 w-5" />
                                     </div>
 
@@ -91,7 +91,7 @@ const Credibility = () => {
                                     </h3>
                                 </div>
 
-                                <div className="mt-5 border-l-2 border-teal-100 pl-4">
+                                <div className="mt-5 border-l-2 border-[#ff7d09]/20 pl-4">
                                     <p className="text-sm leading-7 text-slate-600">
                                         {item.detail}
                                     </p>

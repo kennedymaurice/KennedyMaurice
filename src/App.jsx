@@ -4,7 +4,6 @@ import SplashScreen from "./components/layout/SplashScreen";
 import ScrollToHash from "./components/layout/ScrollToHash";
 import MainLayout from "./layouts/MainLayout";
 import ScrollToTop from "./utils/ScrollToTop";
-import BackToTop from "./components/layout/BackToTop";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
@@ -31,7 +30,7 @@ const App = () => {
     return (
         <BrowserRouter>
             <ScrollToHash />
-            <div className="min-h-screen bg-slate-50 text-slate-950">
+            <div className="min-h-screen bg-slate-50 text-slate-950 dark:bg-[#070707] dark:text-white">
                 <ScrollToTop />
                 <Routes>
                     <Route element={<MainLayout />}>

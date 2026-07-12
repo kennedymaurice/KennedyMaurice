@@ -91,12 +91,12 @@ ${formData.message}
                 path="/contact"
             />
 
-            <section className="relative overflow-hidden bg-slate-950 pt-32 pt-28 pb-6 text-white md:pt-30 md:pb-12">
-                <div className="absolute left-0 top-0 h-[32rem] w-[32rem] rounded-full bg-teal-500/20 blur-3xl" />
-                <div className="absolute bottom-0 right-0 h-[32rem] w-[32rem] rounded-full bg-yellow-400/10 blur-3xl" />
+            <section className="relative overflow-hidden bg-gradient-to-br from-[#100484] via-[#16045f] to-[#02040d] pt-32 pt-28 pb-6 text-white md:pt-30 md:pb-12">
+                <div className="absolute left-0 top-0 h-[32rem] w-[32rem] rounded-full bg-[#ff7d09]/25 blur-3xl" />
+                <div className="absolute bottom-0 right-0 h-[32rem] w-[32rem] rounded-full bg-[#03DAC6]/15 blur-3xl" />
                 <div className="mx-auto max-w-7xl px-5 lg:px-8">
                     <div className="max-w-4xl">
-                        <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-teal-300 backdrop-blur">
+                        <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-[#03DAC6] backdrop-blur">
                             Contact
                         </div>
 
@@ -114,13 +114,13 @@ ${formData.message}
             </section>
 
             <section className="relative overflow-hidden bg-white py-6 md:py-12">
-                <div className="absolute left-0 top-0 h-80 w-80 rounded-full bg-teal-50 blur-3xl" />
+                <div className="absolute left-0 top-0 h-80 w-80 rounded-full bg-[#ff7d09]/10 blur-3xl" />
                 <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-slate-100 blur-3xl" />
 
                 <div className="relative mx-auto max-w-7xl px-5 lg:px-8">
                     <div className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr]">
-                        <div className="rounded-[2rem] border border-slate-200 bg-slate-950 p-7 text-white shadow-xl md:p-8">
-                            <span className="inline-flex rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-teal-300">
+                        <div className="rounded-[2rem] border border-slate-200 bg-[#100484] p-7 text-white shadow-xl md:p-8">
+                            <span className="inline-flex rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-[#03DAC6]">
                                 Get in Touch
                             </span>
 
@@ -139,7 +139,7 @@ ${formData.message}
                                     href="tel:+254737320000"
                                     className="flex gap-4 rounded-2xl border border-white/10 bg-white/[0.04] p-4 transition hover:bg-white/[0.08]"
                                 >
-                                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-teal-500/15 text-teal-300">
+                                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#ff7d09]/15 text-[#03DAC6]">
                                         <FaPhone />
                                     </div>
 
@@ -155,17 +155,17 @@ ${formData.message}
                                 </a>
 
                                 <a
-                                    href="mailto:ken@digimedexpo.com"
+                                    href="mailto:info@kennedymaurice.com"
                                     className="flex gap-4 rounded-2xl border border-white/10 bg-white/[0.04] p-4 transition hover:bg-white/[0.08]"
                                 >
-                                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-teal-500/15 text-teal-300">
+                                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#ff7d09]/15 text-[#03DAC6]">
                                         <FaEnvelope />
                                     </div>
 
                                     <div>
                                         <p className="font-bold text-white">Email</p>
                                         <p className="mt-1 text-sm text-slate-300">
-                                            ken@digimedexpo.com
+                                            info@kennedymaurice.com
                                         </p>
                                         <p className="mt-1 text-sm text-slate-300">
                                             kennedymaurice76@gmail.com
@@ -174,7 +174,7 @@ ${formData.message}
                                 </a>
 
                                 <div className="flex gap-4 rounded-2xl border border-white/10 bg-white/[0.04] p-4">
-                                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-teal-500/15 text-teal-300">
+                                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#ff7d09]/15 text-[#03DAC6]">
                                         <FaLocationDot />
                                     </div>
 
@@ -201,7 +201,7 @@ ${formData.message}
                         <div className="rounded-[2rem] border border-slate-200 bg-slate-50 p-6 shadow-sm md:p-8">
                             <div className="flex items-start justify-between gap-5">
                                 <div>
-                                    <span className="inline-flex rounded-full border border-teal-200 bg-white px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-teal-700">
+                                    <span className="inline-flex rounded-full border border-[#ff7d09]/30 bg-white px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-[#ff7d09]">
                                         Inquiry Form
                                     </span>
 
@@ -228,7 +228,7 @@ ${formData.message}
                                             name="name"
                                             value={formData.name}
                                             onChange={handleChange}
-                                            className={`w-full rounded-2xl border bg-white px-4 py-4 outline-none transition focus:border-teal-600 ${
+                                            className={`w-full rounded-2xl border bg-white px-4 py-4 outline-none transition focus:border-[#1667FF] ${
                                                 errors.name ? "border-red-400" : "border-slate-300"
                                             }`}
                                             placeholder="Your name"
@@ -251,7 +251,7 @@ ${formData.message}
                                             name="email"
                                             value={formData.email}
                                             onChange={handleChange}
-                                            className={`w-full rounded-2xl border bg-white px-4 py-4 outline-none transition focus:border-teal-600 ${
+                                            className={`w-full rounded-2xl border bg-white px-4 py-4 outline-none transition focus:border-[#1667FF] ${
                                                 errors.email ? "border-red-400" : "border-slate-300"
                                             }`}
                                             placeholder="your@email.com"
@@ -276,7 +276,7 @@ ${formData.message}
                                             name="phone"
                                             value={formData.phone}
                                             onChange={handleChange}
-                                            className={`w-full rounded-2xl border bg-white px-4 py-4 outline-none transition focus:border-teal-600 ${
+                                            className={`w-full rounded-2xl border bg-white px-4 py-4 outline-none transition focus:border-[#1667FF] ${
                                                 errors.phone ? "border-red-400" : "border-slate-300"
                                             }`}
                                             placeholder="+254..."
@@ -298,7 +298,7 @@ ${formData.message}
                                             name="service"
                                             value={formData.service}
                                             onChange={handleChange}
-                                            className={`w-full rounded-2xl border bg-white px-4 py-4 outline-none transition focus:border-teal-600 ${
+                                            className={`w-full rounded-2xl border bg-white px-4 py-4 outline-none transition focus:border-[#1667FF] ${
                                                 errors.service
                                                     ? "border-red-400"
                                                     : "border-slate-300"
@@ -331,7 +331,7 @@ ${formData.message}
                                         name="message"
                                         value={formData.message}
                                         onChange={handleChange}
-                                        className={`w-full resize-none rounded-2xl border bg-white px-4 py-4 outline-none transition focus:border-teal-600 ${
+                                        className={`w-full resize-none rounded-2xl border bg-white px-4 py-4 outline-none transition focus:border-[#1667FF] ${
                                             errors.message ? "border-red-400" : "border-slate-300"
                                         }`}
                                         placeholder="Tell me about your project..."
@@ -344,11 +344,11 @@ ${formData.message}
                                     )}
                                 </div>
 
-                                <div className="rounded-2xl border border-teal-100 bg-teal-50 p-4">
+                                <div className="rounded-2xl border border-[#ff7d09]/20 bg-[#ff7d09]/10 p-4">
                                     <div className="flex gap-3">
-                                        <FaCircleCheck className="mt-1 shrink-0 text-teal-700" />
+                                        <FaCircleCheck className="mt-1 shrink-0 text-[#199221]" />
 
-                                        <p className="text-sm leading-6 text-teal-950">
+                                        <p className="text-sm leading-6 text-[#100484] dark:text-white">
                                             Your inquiry will open in WhatsApp with a structured
                                             message. You can review it before sending.
                                         </p>
@@ -357,7 +357,7 @@ ${formData.message}
 
                                 <button
                                     type="submit"
-                                    className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-teal-700 px-7 py-4 font-bold text-white transition hover:bg-teal-800 md:w-auto"
+                                    className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-[#ff7d09] px-7 py-4 font-bold text-white transition hover:bg-[#100484] md:w-auto"
                                 >
                                     <FaPaperPlane />
                                     Send via WhatsApp

@@ -3,16 +3,16 @@ import { motion } from "framer-motion";
 const SplashScreen = () => {
     return (
         <motion.div
-            className="relative flex h-screen flex-col items-center justify-center overflow-hidden bg-slate-950 px-6 text-white"
+            className="relative flex h-screen flex-col items-center justify-center overflow-hidden bg-[#100484] px-6 text-white"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0, scale: 0.98 }}
             transition={{ duration: 0.5 }}
         >
             <div className="absolute inset-0">
-                <div className="absolute -left-24 top-20 h-80 w-80 rounded-full bg-teal-500/20 blur-3xl" />
-                <div className="absolute -right-24 bottom-20 h-96 w-96 rounded-full bg-yellow-500/10 blur-3xl" />
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(15,118,110,0.2),transparent_35%)]" />
+                <div className="absolute -left-24 top-20 h-80 w-80 rounded-full bg-[#ff7d09]/25 blur-3xl" />
+                <div className="absolute -right-24 bottom-20 h-96 w-96 rounded-full bg-[#03DAC6]/15 blur-3xl" />
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(3,218,198,0.2),transparent_35%)]" />
             </div>
 
             <motion.div
@@ -33,7 +33,7 @@ const SplashScreen = () => {
             </motion.div>
 
             <motion.div
-                className="relative mt-7 h-1 w-32 rounded-full bg-gradient-to-r from-teal-400 via-white to-yellow-400"
+                className="relative mt-7 h-1 w-32 rounded-full bg-gradient-to-r from-[#ff7d09] via-white to-[#03DAC6]"
                 initial={{ scaleX: 0 }}
                 animate={{ scaleX: 1 }}
                 transition={{ delay: 0.35, duration: 0.7 }}
@@ -58,7 +58,7 @@ const SplashScreen = () => {
             </motion.p>
 
             <motion.div
-                className="relative mt-8 h-12 w-12 rounded-full border-4 border-white/10 border-t-teal-400"
+                className="relative mt-8 h-12 w-12 rounded-full border-4 border-white/10 border-t-[#03DAC6]"
                 animate={{ rotate: 360 }}
                 transition={{
                     repeat: Infinity,

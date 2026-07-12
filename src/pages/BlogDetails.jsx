@@ -34,8 +34,8 @@ const ContentBlock = ({ block }) => {
 
     if (block.type === "quote") {
         return (
-            <blockquote className="mt-8 rounded-[2rem] border-l-4 border-teal-600 bg-slate-50 p-7">
-                <FaQuoteLeft className="text-2xl text-teal-700" />
+            <blockquote className="mt-8 rounded-[2rem] border-l-4 border-[#1667FF] bg-slate-50 p-7">
+                <FaQuoteLeft className="text-2xl text-[#ff7d09]" />
                 <p className="mt-4 text-xl font-bold leading-9 text-slate-900">{block.text}</p>
             </blockquote>
         );
@@ -49,7 +49,7 @@ const ContentBlock = ({ block }) => {
                         key={item}
                         className="flex gap-4 rounded-2xl bg-slate-50 p-4 text-lg leading-8 text-slate-700"
                     >
-                        <FaCircleCheck className="mt-2 shrink-0 text-teal-700" />
+                        <FaCircleCheck className="mt-2 shrink-0 text-[#199221]" />
                         <span>{item}</span>
                     </li>
                 ))}
@@ -65,7 +65,7 @@ const ContentBlock = ({ block }) => {
                         key={item.title}
                         className="grid gap-5 rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm md:grid-cols-[auto_1fr]"
                     >
-                        <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-950 text-lg font-black text-teal-300">
+                        <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#100484] text-lg font-black text-[#03DAC6]">
                             {index + 1}
                         </div>
 
@@ -81,9 +81,9 @@ const ContentBlock = ({ block }) => {
 
     if (block.type === "callout") {
         return (
-            <div className="mt-10 rounded-[2rem] border border-teal-200 bg-teal-50 p-7">
-                {block.title && <h3 className="text-xl font-black text-teal-950">{block.title}</h3>}
-                <p className="mt-3 text-lg font-semibold leading-8 text-teal-950">{block.text}</p>
+            <div className="mt-10 rounded-[2rem] border border-[#ff7d09]/30 bg-[#ff7d09]/10 p-7">
+                {block.title && <h3 className="text-xl font-black text-[#100484] dark:text-white">{block.title}</h3>}
+                <p className="mt-3 text-lg font-semibold leading-8 text-[#100484] dark:text-white">{block.text}</p>
             </div>
         );
     }
@@ -104,7 +104,7 @@ const BlogDetails = () => {
 
                     <Link
                         to="/insights"
-                        className="mt-6 inline-flex items-center gap-2 font-bold text-teal-700"
+                        className="mt-6 inline-flex items-center gap-2 font-bold text-[#ff7d09]"
                     >
                         <FaArrowLeft />
                         Back to Insights
@@ -124,14 +124,14 @@ const BlogDetails = () => {
                 type="article"
             />
 
-            <section className="relative overflow-hidden bg-slate-950 pt-32 pt-28 pb-6 text-white md:pt-30 md:pb-12">
-                <div className="absolute -left-32 top-20 h-96 w-96 rounded-full bg-teal-500/20 blur-3xl" />
-                <div className="absolute -right-32 bottom-10 h-96 w-96 rounded-full bg-yellow-500/10 blur-3xl" />
+            <section className="relative overflow-hidden bg-gradient-to-br from-[#100484] via-[#16045f] to-[#02040d] pt-32 pt-28 pb-6 text-white md:pt-30 md:pb-12">
+                <div className="absolute -left-32 top-20 h-96 w-96 rounded-full bg-[#ff7d09]/25 blur-3xl" />
+                <div className="absolute -right-32 bottom-10 h-96 w-96 rounded-full bg-[#03DAC6]/15 blur-3xl" />
 
                 <div className="relative mx-auto max-w-7xl px-5 lg:px-8">
                     <Link
                         to="/insights"
-                        className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm font-bold text-slate-200 transition hover:text-teal-300"
+                        className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm font-bold text-slate-200 transition hover:text-[#03DAC6]"
                     >
                         <FaArrowLeft className="text-xs" />
                         Back to Insights
@@ -139,7 +139,7 @@ const BlogDetails = () => {
 
                     <div className="mt-10 grid gap-6 md:gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
                         <div>
-                            <p className="text-sm font-black uppercase tracking-[0.25em] text-teal-300">
+                            <p className="text-sm font-black uppercase tracking-[0.25em] text-[#03DAC6]">
                                 {blog.category}
                             </p>
 
@@ -151,18 +151,18 @@ const BlogDetails = () => {
 
                             <div className="mt-8 flex flex-wrap gap-4 text-sm text-slate-300">
                                 <span className="inline-flex items-center gap-2">
-                                    <FaCalendarDays className="text-teal-300" />
+                                    <FaCalendarDays className="text-[#03DAC6]" />
                                     {blog.date}
                                 </span>
 
                                 <span className="inline-flex items-center gap-2">
-                                    <FaClock className="text-teal-300" />
+                                    <FaClock className="text-[#03DAC6]" />
                                     {blog.readTime}
                                 </span>
 
                                 {blog.author && (
                                     <span className="inline-flex items-center gap-2">
-                                        <FaUserTie className="text-teal-300" />
+                                        <FaUserTie className="text-[#03DAC6]" />
                                         {blog.author.name}
                                     </span>
                                 )}
@@ -191,7 +191,7 @@ const BlogDetails = () => {
                     <aside className="hidden lg:block">
                         <div className="sticky top-28 space-y-6">
                             <div className="rounded-[2rem] border border-slate-200 bg-slate-50 p-6">
-                                <p className="text-sm font-black uppercase tracking-[0.2em] text-teal-700">
+                                <p className="text-sm font-black uppercase tracking-[0.2em] text-[#ff7d09]">
                                     Article Tags
                                 </p>
 
@@ -208,7 +208,7 @@ const BlogDetails = () => {
                             </div>
 
                             <div className="rounded-[2rem] border border-slate-200 bg-slate-50 p-6">
-                                <p className="text-sm font-black uppercase tracking-[0.2em] text-teal-700">
+                                <p className="text-sm font-black uppercase tracking-[0.2em] text-[#ff7d09]">
                                     Other Insights
                                 </p>
 
@@ -217,13 +217,13 @@ const BlogDetails = () => {
                                         <Link
                                             key={item.slug}
                                             to={`/insights/${item.slug}`}
-                                            className="group block rounded-2xl border border-slate-200 bg-white p-4 transition hover:border-teal-200 hover:shadow-md"
+                                            className="group block rounded-2xl border border-slate-200 bg-white p-4 transition hover:border-[#ff7d09]/30 hover:shadow-md"
                                         >
-                                            <p className="text-xs font-black uppercase tracking-[0.16em] text-teal-700">
+                                            <p className="text-xs font-black uppercase tracking-[0.16em] text-[#ff7d09]">
                                                 {item.category}
                                             </p>
 
-                                            <h3 className="mt-2 text-sm font-black leading-6 text-slate-950 transition group-hover:text-teal-700">
+                                            <h3 className="mt-2 text-sm font-black leading-6 text-slate-950 transition group-hover:text-[#ff7d09]">
                                                 {item.title}
                                             </h3>
 
@@ -236,7 +236,7 @@ const BlogDetails = () => {
 
                                 <Link
                                     to="/insights"
-                                    className="mt-5 inline-flex text-sm font-bold text-teal-700 transition hover:text-slate-950"
+                                    className="mt-5 inline-flex text-sm font-bold text-[#ff7d09] transition hover:text-slate-950"
                                 >
                                     View all insights
                                 </Link>

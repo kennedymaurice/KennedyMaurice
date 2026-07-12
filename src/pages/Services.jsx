@@ -2,7 +2,6 @@ import SEO from "../components/seo/SEO";
 import CTA from "../components/home/CTA";
 import { services } from "../data/services";
 import { FaCircleCheck, FaArrowRight } from "react-icons/fa6";
-import { Link } from "react-router-dom";
 
 const Services = () => {
     const getServiceWhatsAppLink = (service) => {
@@ -28,13 +27,13 @@ Kindly guide me on the next steps.
                 path="/services"
             />
 
-            <section className="relative overflow-hidden bg-slate-950 pt-32 pt-28 pb-6 text-white md:pt-30 md:pb-12">
-                <div className="absolute left-0 top-0 h-[32rem] w-[32rem] rounded-full bg-teal-500/20 blur-3xl" />
-                <div className="absolute bottom-0 right-0 h-[32rem] w-[32rem] rounded-full bg-yellow-400/10 blur-3xl" />
+            <section className="relative overflow-hidden bg-gradient-to-br from-[#100484] via-[#16045f] to-[#02040d] pt-32 pt-28 pb-6 text-white md:pt-30 md:pb-12">
+                <div className="absolute left-0 top-0 h-[32rem] w-[32rem] rounded-full bg-[#ff7d09]/25 blur-3xl" />
+                <div className="absolute bottom-0 right-0 h-[32rem] w-[32rem] rounded-full bg-[#03DAC6]/15 blur-3xl" />
 
                 <div className="relative mx-auto max-w-7xl px-5 lg:px-8">
                     <div className="max-w-4xl">
-                        <span className="inline-flex rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-teal-300">
+                        <span className="inline-flex rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-[#03DAC6]">
                             Services
                         </span>
 
@@ -69,7 +68,7 @@ Kindly guide me on the next steps.
                                     <div className="grid gap-8 p-5 md:p-7 md:p-10 lg:grid-cols-[0.85fr_1.15fr]">
                                         <div className="self-start lg:sticky lg:top-28">
                                             <div className="flex items-center gap-4">
-                                                <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-slate-950 text-teal-300">
+                                                <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-[#100484] text-[#03DAC6]">
                                                     <Icon className="h-7 w-7" />
                                                 </div>
 
@@ -86,7 +85,7 @@ Kindly guide me on the next steps.
                                                 href={getServiceWhatsAppLink(service)}
                                                 target="_blank"
                                                 rel="noreferrer"
-                                                className="mt-4 inline-flex items-center gap-2 rounded-full bg-teal-700 px-6 py-3 text-sm font-bold text-white transition hover:bg-teal-800 md:mt-7"
+                                                className="mt-4 inline-flex items-center gap-2 rounded-full bg-[#ff7d09] px-6 py-3 text-sm font-bold text-white transition hover:bg-[#100484] md:mt-7"
                                             >
                                                 Discuss This Service
                                                 <FaArrowRight className="text-xs" />
@@ -95,7 +94,7 @@ Kindly guide me on the next steps.
 
                                         <div className="grid gap-6">
                                             <div>
-                                                <h3 className="text-sm font-black uppercase tracking-[0.2em] text-teal-700">
+                                                <h3 className="text-sm font-black uppercase tracking-[0.2em] text-[#ff7d09]">
                                                     What This Covers
                                                 </h3>
 
@@ -105,7 +104,7 @@ Kindly guide me on the next steps.
                                                             key={item}
                                                             className="flex gap-3 rounded-2xl border border-slate-200 bg-white p-4"
                                                         >
-                                                            <FaCircleCheck className="mt-1 shrink-0 text-teal-700" />
+                                                            <FaCircleCheck className="mt-1 shrink-0 text-[#199221]" />
                                                             <span className="text-sm leading-6 text-slate-700">
                                                                 {item}
                                                             </span>
@@ -135,8 +134,8 @@ Kindly guide me on the next steps.
                                                 )}
 
                                                 {service.outcomes && (
-                                                    <div className="rounded-[1.5rem] border border-teal-100 bg-teal-50 p-6">
-                                                        <h3 className="text-sm font-black uppercase tracking-[0.2em] text-teal-900">
+                                                    <div className="rounded-[1.5rem] border border-[#ff7d09]/20 bg-[#ff7d09]/10 p-6">
+                                                        <h3 className="text-sm font-black uppercase tracking-[0.2em] text-[#100484] dark:text-white">
                                                             Expected Outcomes
                                                         </h3>
 
@@ -144,7 +143,7 @@ Kindly guide me on the next steps.
                                                             {service.outcomes.map((item) => (
                                                                 <li
                                                                     key={item}
-                                                                    className="text-sm leading-6 text-teal-950"
+                                                                    className="text-sm leading-6 text-[#100484] dark:text-white"
                                                                 >
                                                                     • {item}
                                                                 </li>

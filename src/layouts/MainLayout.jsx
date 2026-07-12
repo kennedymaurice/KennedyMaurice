@@ -8,7 +8,7 @@ const MainLayout = () => {
     const location = useLocation();
 
     return (
-        <div className="min-h-screen bg-white text-slate-900">
+        <div className="min-h-screen bg-white text-slate-900 dark:bg-[#070707] dark:text-white">
             <Header />
 
             <AnimatePresence mode="wait">

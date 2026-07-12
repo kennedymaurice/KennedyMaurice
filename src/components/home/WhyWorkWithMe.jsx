@@ -49,15 +49,18 @@ const reasons = [
 
 const WhyWorkWithMe = () => {
     return (
-        <section className="bg-slate-950 py-6 md:py-12 text-white">
+        <section className="bg-gradient-to-br from-[#100484] via-[#16045f] to-[#02040d] py-6 md:py-12 text-white">
             <div className="mx-auto max-w-7xl px-5 lg:px-8">
-                <div className="max-w-3xl">
-                    <span className="inline-flex rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-black uppercase tracking-[0.25em] text-teal-300 backdrop-blur">
+                <div className="max-w-5xl">
+                    <span className="inline-flex rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-black uppercase tracking-[0.25em] text-[#03DAC6] backdrop-blur">
                         Why Organizations Choose Kennedy Maurice
                     </span>
 
                     <h2 className="mt-4 text-4xl font-bold tracking-tight md:text-5xl">
-                        Practical expertise across healthcare, business and technology.
+                        Practical expertise across{" "}
+                        <span className="bg-gradient-to-r from-[#ff7d09] via-[#ffb347] to-[#03DAC6] bg-clip-text text-transparent">
+                            healthcare, business and technology.
+                        </span>
                     </h2>
 
                     <p className="mt-6 text-lg leading-8 text-slate-300">
@@ -82,14 +85,14 @@ const WhyWorkWithMe = () => {
                                     duration: 0.5,
                                     delay: index * 0.08,
                                 }}
-                                className="group relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.03] p-7 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-teal-400/30 hover:bg-white/[0.06]"
+                                className="group relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.03] p-7 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-[#03DAC6]/30 hover:bg-white/[0.06]"
                             >
                                 <div className="absolute right-6 top-4 text-6xl font-black text-white/[0.04]">
                                     {String(index + 1).padStart(2, "0")}
                                 </div>
 
                                 <div className="relative flex items-center gap-4">
-                                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-teal-500/15 text-teal-300 transition group-hover:bg-teal-500 group-hover:text-white">
+                                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#ff7d09]/15 text-[#03DAC6] transition group-hover:bg-[#ff7d09] group-hover:text-white">
                                         <Icon className="h-5 w-5" />
                                     </div>
 
@@ -98,7 +101,7 @@ const WhyWorkWithMe = () => {
                                     </h3>
                                 </div>
 
-                                <div className="mt-6 h-px w-full bg-gradient-to-r from-teal-400/30 via-white/10 to-transparent" />
+                                <div className="mt-6 h-px w-full bg-gradient-to-r from-[#03DAC6]/35 via-white/10 to-transparent" />
 
                                 <p className="mt-6 leading-8 text-slate-300">
                                     {reason.description}
@@ -111,28 +114,28 @@ const WhyWorkWithMe = () => {
                 <div className="mt-6 md:mt-8 rounded-[2rem] border border-white/10 bg-white/[0.03] p-8 backdrop-blur-xl md:p-10">
                     <div className="grid gap-8 md:grid-cols-4">
                         <div>
-                            <p className="text-5xl font-black text-teal-300">8+</p>
+                            <p className="text-5xl font-black text-[#03DAC6]">8+</p>
                             <p className="mt-3 text-sm font-medium uppercase tracking-wider text-slate-400">
                                 Years Experience
                             </p>
                         </div>
 
                         <div>
-                            <p className="text-5xl font-black text-teal-300">4</p>
+                            <p className="text-5xl font-black text-[#03DAC6]">4</p>
                             <p className="mt-3 text-sm font-medium uppercase tracking-wider text-slate-400">
                                 Executive Roles
                             </p>
                         </div>
 
                         <div>
-                            <p className="text-5xl font-black text-teal-300">7+</p>
+                            <p className="text-5xl font-black text-[#03DAC6]">7+</p>
                             <p className="mt-3 text-sm font-medium uppercase tracking-wider text-slate-400">
                                 Service Disciplines
                             </p>
                         </div>
 
                         <div>
-                            <p className="text-5xl font-black text-teal-300">100%</p>
+                            <p className="text-5xl font-black text-[#03DAC6]">100%</p>
                             <p className="mt-3 text-sm font-medium uppercase tracking-wider text-slate-400">
                                 Execution Focused
                             </p>

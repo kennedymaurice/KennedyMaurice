@@ -1,7 +1,6 @@
 import SEO from "../components/seo/SEO";
 import CTA from "../components/home/CTA";
 import {
-    ArrowRight,
     BrainCircuit,
     BriefcaseBusiness,
     Code2,
@@ -86,14 +85,14 @@ const About = () => {
                 path="/about"
             />
 
-            <section className="relative overflow-hidden bg-slate-950 pt-28 pb-6 text-white md:pt-30 md:pb-12">
-                <div className="absolute left-0 top-0 h-[32rem] w-[32rem] rounded-full bg-teal-500/20 blur-3xl" />
-                <div className="absolute bottom-0 right-0 h-[32rem] w-[32rem] rounded-full bg-yellow-400/10 blur-3xl" />
+            <section className="relative overflow-hidden bg-gradient-to-br from-[#100484] via-[#16045f] to-[#02040d] pt-28 pb-6 text-white md:pt-30 md:pb-12">
+                <div className="absolute left-0 top-0 h-[32rem] w-[32rem] rounded-full bg-[#ff7d09]/25 blur-3xl" />
+                <div className="absolute bottom-0 right-0 h-[32rem] w-[32rem] rounded-full bg-[#03DAC6]/15 blur-3xl" />
 
                 <div className="relative mx-auto max-w-7xl px-5 lg:px-8">
                     <div className="grid gap-8 lg:gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
                         <div>
-                            <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-teal-300 backdrop-blur">
+                            <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-[#03DAC6] backdrop-blur">
                                 <Sparkles className="h-4 w-4" />
                                 About Kennedy Maurice
                             </div>
@@ -109,10 +108,13 @@ const About = () => {
                             </p>
 
                             <p className="mt-7 max-w-3xl text-lg leading-8 text-slate-300">
-                                My background in Medical Laboratory Science gives me a strong
-                                understanding of healthcare systems, while my experience in
-                                entrepreneurship, web development and operations allows me to turn
-                                ideas into practical, working solutions.
+                                My background in{" "}
+                                <span className="bg-gradient-to-r from-[#ff7d09] via-[#ffb347] to-[#03DAC6] bg-clip-text text-transparent">
+                                    Medical Laboratory Science
+                                </span>{" "}
+                                gives me a strong understanding of healthcare systems, while my
+                                experience in entrepreneurship, web development and operations
+                                allows me to turn ideas into practical, working solutions.
                             </p>
 
                             <div className="hidden md:grid md:grid-cols-3 gap-4 mt-10">
@@ -121,7 +123,7 @@ const About = () => {
                                         key={item}
                                         className="rounded-2xl border border-white/10 bg-white/[0.06] p-5 backdrop-blur"
                                     >
-                                        <p className="text-sm font-black uppercase tracking-[0.18em] text-teal-300">
+                                        <p className="text-sm font-black uppercase tracking-[0.18em] text-[#03DAC6]">
                                             {item}
                                         </p>
                                     </div>
@@ -130,7 +132,7 @@ const About = () => {
                         </div>
 
                         <div className="relative">
-                            <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-br from-teal-400/30 via-white/5 to-yellow-400/20 blur-2xl" />
+                            <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-br from-[#03DAC6]/35 via-white/5 to-[#03DAC6]/20 blur-2xl" />
 
                             <div className="relative rounded-[2rem] border border-white/10 bg-white/10 p-4 shadow-2xl backdrop-blur">
                                 <img
@@ -139,11 +141,12 @@ const About = () => {
                                     className="h-[520px] w-full rounded-[1.5rem] object-cover"
                                 />
 
-                                <div className="absolute bottom-8 left-8 right-8 rounded-3xl border border-white/10 bg-slate-950/80 p-6 backdrop-blur">
-                                    <p className="text-sm font-bold uppercase tracking-[0.2em] text-teal-300">
+                                <div className="absolute bottom-8 left-8 right-8 rounded-3xl border border-white/10 bg-[#100484]/80 p-6 backdrop-blur">
+                                    <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#03DAC6]">
                                         Consultant & Builder
                                     </p>
-                                    <p className="mt-2 text-lg font-black">
+
+                                    <p className="mt-2 text-lg font-black bg-gradient-to-r from-[#ff7d09] via-[#ffb347] to-[#03DAC6] bg-clip-text text-transparent">
                                         Healthcare Business • Digital Systems • Institutional
                                         Support
                                     </p>
@@ -158,7 +161,7 @@ const About = () => {
                 <div className="mx-auto max-w-7xl px-5 lg:px-8">
                     <div className="grid gap-6 md:gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
                         <div className="lg:sticky lg:top-28">
-                            <span className="text-sm font-black uppercase tracking-[0.25em] text-teal-700">
+                            <span className="text-sm font-black uppercase tracking-[0.25em] text-[#ff7d09]">
                                 My Story
                             </span>
 
@@ -178,13 +181,13 @@ const About = () => {
                             {milestones.map((item, index) => (
                                 <div
                                     key={`${item.year}-${item.title}`}
-                                    className="group relative overflow-hidden rounded-[1.7rem] border border-slate-200 bg-slate-50 p-6 transition duration-300 hover:-translate-y-1 hover:border-teal-200 hover:bg-white hover:shadow-2xl hover:shadow-slate-200/70"
+                                    className="group relative overflow-hidden rounded-[1.7rem] border border-slate-200 bg-slate-50 p-6 transition duration-300 hover:-translate-y-1 hover:border-[#ff7d09]/30 hover:bg-white hover:shadow-2xl hover:shadow-slate-200/70"
                                 >
-                                    <div className="absolute -right-6 -top-8 text-8xl font-black text-slate-100 transition group-hover:text-teal-50">
+                                    <div className="absolute -right-6 -top-8 text-8xl font-black text-slate-100 transition group-hover:text-[#ff7d09]/15">
                                         {String(index + 1).padStart(2, "0")}
                                     </div>
 
-                                    <p className="relative text-sm font-black uppercase tracking-[0.2em] text-teal-700">
+                                    <p className="relative text-sm font-black uppercase tracking-[0.2em] text-[#ff7d09]">
                                         {item.year}
                                     </p>
 
@@ -202,11 +205,11 @@ const About = () => {
                 </div>
             </section>
 
-            <section className="bg-slate-950 py-6 text-white md:py-12">
+            <section className="bg-gradient-to-br from-[#100484] via-[#16045f] to-[#02040d] py-6 text-white md:py-12">
                 <div className="mx-auto max-w-7xl px-5 lg:px-8">
                     <div className="grid gap-6 md:gap-12 rounded-[2rem] border border-white/10 bg-white/[0.06] p-6 md:p-8 backdrop-blur md:grid-cols-[1fr_0.8fr]">
                         <div>
-                            <span className="text-sm font-black uppercase tracking-[0.25em] text-teal-300">
+                            <span className="text-sm font-black uppercase tracking-[0.25em] text-[#03DAC6]">
                                 My Positioning
                             </span>
 
@@ -231,7 +234,7 @@ const About = () => {
                             ].map((item) => (
                                 <div
                                     key={item}
-                                    className="rounded-2xl border border-white/10 bg-slate-900/80 px-5 py-4 text-sm font-bold text-slate-200"
+                                    className="rounded-2xl border border-white/10 bg-[#16045f]/80 px-5 py-4 text-sm font-bold text-slate-200"
                                 >
                                     {item}
                                 </div>
@@ -242,12 +245,12 @@ const About = () => {
             </section>
 
             <section className="relative overflow-hidden bg-slate-50 py-6 md:py-12">
-                <div className="absolute left-0 top-0 h-96 w-96 rounded-full bg-teal-100 blur-3xl" />
+                <div className="absolute left-0 top-0 h-96 w-96 rounded-full bg-[#ff7d09]/15 blur-3xl" />
                 <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-slate-200 blur-3xl" />
 
                 <div className="relative mx-auto max-w-7xl px-5 lg:px-8">
                     <div className="mx-auto max-w-3xl text-center">
-                        <span className="text-sm font-black uppercase tracking-[0.25em] text-teal-700">
+                        <span className="text-sm font-black uppercase tracking-[0.25em] text-[#ff7d09]">
                             What Makes Me Different
                         </span>
 
@@ -268,10 +271,10 @@ const About = () => {
                             return (
                                 <div
                                     key={item.title}
-                                    className="group rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-teal-200 hover:shadow-2xl hover:shadow-slate-200/70"
+                                    className="group rounded-[1.7rem] border border-slate-200 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-[#ff7d09]/30 hover:shadow-2xl hover:shadow-slate-200/70"
                                 >
                                     <div className="flex items-center gap-4">
-                                        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-slate-950 text-teal-300 transition group-hover:bg-teal-700 group-hover:text-white">
+                                        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#100484] text-[#03DAC6] transition group-hover:bg-[#ff7d09] group-hover:text-white">
                                             <Icon className="h-7 w-7" />
                                         </div>
 
