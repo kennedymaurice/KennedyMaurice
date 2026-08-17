@@ -54,7 +54,7 @@ I am particularly interested in software where several domains intersect — cli
 
 ### *Operating Healthcare. Intelligently.*
 
-[![AfyaOS](https://img.shields.io/badge/AfyaOS-afyaos.net-00A676?style=for-the-badge)](https://afyaos.net)
+[![AfyaOS](https://img.shields.io/badge/AfyaOS-afyaos.net-00A676?style=for-the-badge)](https://afyaos.com)
 
 I am building **AfyaOS**, a healthcare operating system designed to unify clinical, administrative, financial, workforce, retail, procurement, supply-chain, and enterprise operations within a coherent healthcare technology ecosystem.
 
@@ -153,7 +153,7 @@ Technology is only one side of my work. I am actively involved in healthcare bus
 
 Medical equipment, laboratory technology, healthcare procurement, technical support and healthcare-facility solutions.
 
-[![Kencare](https://img.shields.io/badge/Kencare_Medical_Systems-Visit_Website-590D0F?style=flat-square)](https://www.ken-care.com)
+[![Kencare](https://img.shields.io/badge/Kencare_Medical_Systems-Visit_Website-590D0F?style=flat-square)](https://www.kencare.co.ke)
 
 ---
 
@@ -169,7 +169,7 @@ A global medical-device and healthcare-technology marketplace connecting the hea
 
 ### Nairobi Institute of Medical & Emergency Training — NIMET
 
-**Principal / Academic Director**
+**Principal**
 
 A healthcare and emergency medical training institution focused on developing practical healthcare workforce capacity.
 
@@ -187,13 +187,13 @@ Operational involvement in emergency medical services, ambulance deployment, cri
 
 # 💻 Selected Digital Portfolio
 
-Beyond my own technology products, I have designed or developed digital platforms and corporate web experiences across healthcare, consulting, professional services and institutional environments.
+I have designed or developed digital platforms and corporate web experiences across healthcare, consulting, professional services and institutional environments.
 
 ### 🌐 [DigimedExpo](https://www.digimedexpo.com)
 
 Large-scale medical technology marketplace and procurement platform.
 
-### 🩺 [Kencare Medical Systems](https://www.ken-care.com)
+### 🩺 [Kencare Medical Systems](https://www.kencare.co.ke)
 
 Healthcare technology, medical equipment and laboratory solutions platform.
 
@@ -209,7 +209,7 @@ Corporate digital platform for a healthcare and medical solutions company.
 
 Professional digital platform for a healthcare leader.
 
-### 🌍 [Llorick Consulting](https://llorickconsulting.vercel.app)
+### 🌍 [Llorick Consulting](https://llorick-consulting.vercel.app)
 
 Corporate web platform for a global-health advisory and consulting organisation.
 
