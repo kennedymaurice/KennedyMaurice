@@ -6,8 +6,13 @@
 
 **Building digital systems at the intersection of healthcare, commerce, operations, and technology.**
 
+<<<<<<< HEAD
 [![Portfolio](https://img.shields.io/badge/Portfolio-kennedymaurice.com-0B1F3A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.kennedymaurice.com)
 [![GitHub](https://img.shields.io/badge/GitHub-KennedyMaurice-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KennedyMaurice)
+=======
+[![Portfolio](https://img.shields.io/badge/Portfolio-kennedymaurice.com-0B1F3A?style=for-the-badge\&logo=googlechrome\&logoColor=white)](https://www.kennedymaurice.com)
+[![GitHub](https://img.shields.io/badge/GitHub-KennedyMaurice-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/KennedyMaurice)
+>>>>>>> d57feb3ff9aec48d2fb40d0acfa797b0515fbf47
 [![DigimedExpo](https://img.shields.io/badge/DigimedExpo-Medical_Technology_Marketplace-00A676?style=for-the-badge)](https://www.digimedexpo.com)
 
 ![Kenya](https://img.shields.io/badge/Based_in-Kenya-BE0027?style=flat-square)
@@ -37,12 +42,21 @@ I hold a **Bachelor of Science in Medical Laboratory Science** from the **Techni
 
 My work sits primarily across six areas:
 
+<<<<<<< HEAD
 - 🏥 **Digital Health & Healthcare Information Systems**
 - 🛒 **B2B/B2C Marketplaces & Procurement Platforms**
 - 🧩 **ERP, Operations & Enterprise Workflow Systems**
 - 🌐 **Production Web Applications & Corporate Platforms**
 - 🤖 **AI-Assisted Business & Healthcare Workflows**
 - ☁️ **Web Infrastructure, Deployment, SEO & Platform Architecture**
+=======
+* 🏥 **Digital Health & Healthcare Information Systems**
+* 🛒 **B2B/B2C Marketplaces & Procurement Platforms**
+* 🧩 **ERP, Operations & Enterprise Workflow Systems**
+* 🌐 **Production Web Applications & Corporate Platforms**
+* 🤖 **AI-Assisted Business & Healthcare Workflows**
+* ☁️ **Web Infrastructure, Deployment, SEO & Platform Architecture**
+>>>>>>> d57feb3ff9aec48d2fb40d0acfa797b0515fbf47
 
 I am particularly interested in software where several domains intersect — clinical workflows, finance, procurement, supply chains, workforce management, marketplaces, interoperability, analytics, and enterprise operations.
 
@@ -52,14 +66,21 @@ I am particularly interested in software where several domains intersect — cli
 
 ## 🏥 AfyaOS
 
+<<<<<<< HEAD
 ### _Operating Healthcare. Intelligently._
 
 [![AfyaOS](https://img.shields.io/badge/AfyaOS-afyaos.net-00A676?style=for-the-badge)](https://afyaos.net)
+=======
+### *Operating Healthcare. Intelligently.*
+
+[![AfyaOS](https://img.shields.io/badge/AfyaOS-afyaos.net-00A676?style=for-the-badge)](https://afyaos.com)
+>>>>>>> d57feb3ff9aec48d2fb40d0acfa797b0515fbf47
 
 I am building **AfyaOS**, a healthcare operating system designed to unify clinical, administrative, financial, workforce, retail, procurement, supply-chain, and enterprise operations within a coherent healthcare technology ecosystem.
 
 The broader architecture covers areas such as:
 
+<<<<<<< HEAD
 - Electronic Medical Records
 - Patient administration
 - Appointments & scheduling
@@ -91,6 +112,39 @@ The broader architecture covers areas such as:
 - AI-assisted healthcare workflows
 - HL7 / FHIR / DICOM interoperability
 - M-PESA, insurance and government-system integrations
+=======
+* Electronic Medical Records
+* Patient administration
+* Appointments & scheduling
+* Inpatient and bed management
+* Laboratory Information Systems
+* Radiology & DICOM workflows
+* Pharmacy
+* Healthcare Point of Sale
+* Billing & revenue-cycle management
+* Insurance workflows
+* Theatre & surgical workflows
+* Maternity
+* Emergency medicine
+* Blood banking
+* Dialysis
+* Telemedicine
+* Ambulance operations
+* Mortuary management
+* Queue management
+* Procurement & supply chain
+* Inventory & asset management
+* Biomedical engineering
+* HR, attendance & payroll
+* Recruitment
+* Supplier & tender management
+* Visitor management
+* Call-centre operations
+* Analytics & reporting
+* AI-assisted healthcare workflows
+* HL7 / FHIR / DICOM interoperability
+* M-PESA, insurance and government-system integrations
+>>>>>>> d57feb3ff9aec48d2fb40d0acfa797b0515fbf47
 
 **Engineering themes:** modular architecture, domain modelling, RBAC, interoperability, API design, workflow orchestration, healthcare data architecture, enterprise integration and scalable multi-facility operations.
 
@@ -100,12 +154,17 @@ The broader architecture covers areas such as:
 
 ### Global Medical Technology Marketplace
 
+<<<<<<< HEAD
 [![DigimedExpo](https://img.shields.io/badge/Visit-DigimedExpo.com-0B5F8A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.digimedexpo.com)
+=======
+[![DigimedExpo](https://img.shields.io/badge/Visit-DigimedExpo.com-0B5F8A?style=for-the-badge\&logo=googlechrome\&logoColor=white)](https://www.digimedexpo.com)
+>>>>>>> d57feb3ff9aec48d2fb40d0acfa797b0515fbf47
 
 **DigimedExpo** is one of my largest production software projects — a global digital marketplace and procurement ecosystem for the medical technology industry.
 
 It connects:
 
+<<<<<<< HEAD
 - Medical-device manufacturers
 - Distributors
 - Healthcare facilities
@@ -138,6 +197,40 @@ The platform extends beyond conventional e-commerce into healthcare-specific B2B
 ### Engineering areas explored through DigimedExpo
 
 `React` · `Next.js` · `Node.js` · `Express` · `MongoDB` · `Mongoose` · `Redux` · `REST APIs` · `SSR` · `SEO` · `Nginx` · `PM2` · `Linux` · `Object Storage` · `CI/CD`
+=======
+* Medical-device manufacturers
+* Distributors
+* Healthcare facilities
+* Procurement teams
+* Biomedical engineers
+* Technology providers
+* Logistics companies
+* Event organisers
+* Industry professionals
+
+The platform extends beyond conventional e-commerce into healthcare-specific B2B workflows including:
+
+* Product & technology discovery
+* RFQs and competitive bidding
+* Supplier profiles
+* Buyer procurement workflows
+* Medical expos & events
+* Jobs
+* Biomedical-engineer profiles
+* Logistics services
+* Business subscriptions
+* Sponsored placements
+* Invoices & payments
+* Messaging
+* Notifications
+* Support workflows
+* SEO-driven marketplace discovery
+* Administrative governance
+
+### Engineering areas explored through DigimedExpo
+
+`React` · `Node.js` · `Express` · `MongoDB` · `Mongoose` · `Redux` · `REST APIs` · `SSR` · `SEO` · `Nginx` · `PM2` · `Linux` · `Object Storage` · `CI/CD`
+>>>>>>> d57feb3ff9aec48d2fb40d0acfa797b0515fbf47
 
 DigimedExpo has also given me extensive experience evolving a growing production application while balancing **architecture, backwards compatibility, SEO, deployment, infrastructure, user experience, data models and business requirements**.
 
@@ -153,7 +246,11 @@ Technology is only one side of my work. I am actively involved in healthcare bus
 
 Medical equipment, laboratory technology, healthcare procurement, technical support and healthcare-facility solutions.
 
+<<<<<<< HEAD
 [![Kencare](https://img.shields.io/badge/Kencare_Medical_Systems_Limited-Visit_Website-590D0F?style=flat-square)](https://www.kencare.co.ke)
+=======
+[![Kencare](https://img.shields.io/badge/Kencare_Medical_Systems-Visit_Website-590D0F?style=flat-square)](https://www.kencare.co.ke)
+>>>>>>> d57feb3ff9aec48d2fb40d0acfa797b0515fbf47
 
 ---
 
@@ -193,6 +290,7 @@ I have designed or developed digital platforms and corporate web experiences acr
 
 Large-scale medical technology marketplace and procurement platform.
 
+<<<<<<< HEAD
 ### 🩺 [Kencare Medical Systems Limited](https://www.kencare.co.ke)
 
 Healthcare technology, medical equipment and laboratory solutions platform.
@@ -202,6 +300,17 @@ Healthcare technology, medical equipment and laboratory solutions platform.
 Digital presence for the Nairobi Institute of Medical and Emergency Training.
 
 ### 🧬 [Biospan Medical Solutions Limited](https://www.biospan.co.ke)
+=======
+### 🩺 [Kencare Medical Systems](https://www.kencare.co.ke)
+
+Healthcare technology, medical equipment and laboratory solutions platform.
+
+### 🎓 [NIMET](https://www.nimet.ac.ke)
+
+Digital presence for the Nairobi Institute of Medical and Emergency Training.
+
+### 🧬 [Biospan Medical Solutions](https://www.biospan.co.ke)
+>>>>>>> d57feb3ff9aec48d2fb40d0acfa797b0515fbf47
 
 Corporate digital platform for a healthcare and medical solutions company.
 
@@ -299,6 +408,7 @@ Continuous Product Evolution
 
 Areas I regularly work on or explore include:
 
+<<<<<<< HEAD
 - System and application architecture
 - Domain-driven data modelling
 - REST API architecture
@@ -321,6 +431,30 @@ Areas I regularly work on or explore include:
 - CI/CD
 - AI-assisted workflows
 - Healthcare interoperability
+=======
+* System and application architecture
+* Domain-driven data modelling
+* REST API architecture
+* Authentication & authorization
+* Role-Based Access Control
+* Multi-tenant applications
+* Enterprise workflow design
+* Procurement systems
+* ERP architecture
+* Healthcare information systems
+* Medical-device ecosystems
+* Marketplace architecture
+* Search & filtering systems
+* Payment integrations
+* File & object storage
+* SEO architecture
+* Server-side rendering
+* Infrastructure and deployment
+* Database design
+* CI/CD
+* AI-assisted workflows
+* Healthcare interoperability
+>>>>>>> d57feb3ff9aec48d2fb40d0acfa797b0515fbf47
 
 ---
 
@@ -395,6 +529,7 @@ The best system makes complicated work feel simpler.
 
 My technology work is complemented by experience and exposure across:
 
+<<<<<<< HEAD
 - Medical Laboratory Science
 - Medical equipment & diagnostics
 - Healthcare procurement
@@ -407,6 +542,20 @@ My technology work is complemented by experience and exposure across:
 - Business development
 - Digital transformation
 - AI productivity
+=======
+* Medical Laboratory Science
+* Medical equipment & diagnostics
+* Healthcare procurement
+* Healthcare facility operations
+* Emergency medical services
+* Healthcare education & training
+* Institutional management
+* B2B sales & distribution
+* Supply-chain operations
+* Business development
+* Digital transformation
+* AI productivity
+>>>>>>> d57feb3ff9aec48d2fb40d0acfa797b0515fbf47
 
 This multidisciplinary context is particularly valuable when translating complex healthcare and business requirements into software architecture.
 
@@ -416,6 +565,7 @@ This multidisciplinary context is particularly valuable when translating complex
 
 ```typescript
 const kennedyMaurice = {
+<<<<<<< HEAD
     base: "Kenya",
 
     domains: [
@@ -444,6 +594,36 @@ const kennedyMaurice = {
     ],
 
     philosophy: "Build technology around real-world systems.",
+=======
+  base: "Kenya",
+
+  domains: [
+    "Healthcare Technology",
+    "Digital Health",
+    "Medical Technology",
+    "Enterprise Software",
+    "B2B Marketplaces",
+    "Healthcare Operations",
+  ],
+
+  currentlyBuilding: [
+    "AfyaOS",
+    "DigimedExpo",
+    "Healthcare enterprise systems",
+    "AI-enabled operational workflows",
+  ],
+
+  interests: [
+    "System Architecture",
+    "Product Engineering",
+    "Healthcare Interoperability",
+    "ERP Architecture",
+    "Platform Infrastructure",
+    "AI Integration",
+  ],
+
+  philosophy: "Build technology around real-world systems.",
+>>>>>>> d57feb3ff9aec48d2fb40d0acfa797b0515fbf47
 };
 ```
 
@@ -471,11 +651,19 @@ I am particularly interested in conversations and collaborations around:
 
 <div align="center">
 
+<<<<<<< HEAD
 [![Website](https://img.shields.io/badge/kennedymaurice.com-Visit_Portfolio-0B1F3A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.kennedymaurice.com)
 
 [![DigimedExpo](https://img.shields.io/badge/DigimedExpo-Explore_Platform-0B5F8A?style=for-the-badge)](https://www.digimedexpo.com)
 
 [![GitHub](https://img.shields.io/badge/GitHub-KennedyMaurice-181717?style=for-the-badge&logo=github)](https://github.com/KennedyMaurice)
+=======
+[![Website](https://img.shields.io/badge/kennedymaurice.com-Visit_Portfolio-0B1F3A?style=for-the-badge\&logo=googlechrome\&logoColor=white)](https://www.kennedymaurice.com)
+
+[![DigimedExpo](https://img.shields.io/badge/DigimedExpo-Explore_Platform-0B5F8A?style=for-the-badge)](https://www.digimedexpo.com)
+
+[![GitHub](https://img.shields.io/badge/GitHub-KennedyMaurice-181717?style=for-the-badge\&logo=github)](https://github.com/KennedyMaurice)
+>>>>>>> d57feb3ff9aec48d2fb40d0acfa797b0515fbf47
 
 </div>
 
