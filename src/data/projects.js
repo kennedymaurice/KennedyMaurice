@@ -32,12 +32,39 @@ export const projects = [
         services: ["Corporate Website", "Brand Positioning", "SEO", "UI/UX Design"],
     },
     {
+        title: "Aidest Consulting Group Limited",
+        category: "Multidisciplinary Consulting Firm",
+        url: "https://www.aidest.co.ke",
+        description:
+            "A modern corporate platform developed for a multidisciplinary consulting firm, presenting its expertise, services, industries, case studies, and consulting capabilities through a refined, conversion-focused digital experience.",
+        services: [
+            "Corporate Website",
+            "Frontend Development",
+            "UI/UX Design",
+            "Brand Positioning",
+            "SEO",
+        ],
+    },
+    {
         title: "Dr. Peter Waweru",
         category: "Professional Healthcare Website",
         url: "https://www.peterwaweru.co.ke",
         description:
             "A premium personal website developed for a healthcare leader to showcase expertise, research, publications, and professional achievements.",
         services: ["Personal Branding", "Professional Website", "SEO", "UI/UX Design"],
+    },
+    {
+        title: "Kevin Okoth",
+        category: "Professional Portfolio Website",
+        url: "https://kevin.biospan.co.ke",
+        description:
+            "A professionally designed personal portfolio developed for Kevin Okoth of Biospan Medical Solutions, presenting his professional profile, expertise, leadership experience, and career portfolio through a polished digital presence.",
+        services: [
+            "Personal Branding",
+            "Portfolio Website",
+            "UI/UX Design",
+            "Professional Positioning",
+        ],
     },
     {
         title: "Llorick Consulting",
