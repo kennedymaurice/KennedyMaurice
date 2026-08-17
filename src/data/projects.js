@@ -16,12 +16,18 @@ export const projects = [
         services: ["Corporate Website", "Healthcare Consultancy", "SEO", "Brand Positioning"],
     },
     {
-        title: "Nairobi Institute of Medical and Emergency Training",
-        category: "Healthcare Training Institution",
-        url: "https://www.nimet.ac.ke",
+        title: "Aidest Consulting Group Limited",
+        category: "Multidisciplinary Consulting Firm",
+        url: "https://www.aidestconsulting.co.ke",
         description:
-            "A modern institutional website developed for a TVET-accredited healthcare training institution offering emergency medical and health sciences programmes.",
-        services: ["Institutional Website", "Web Development", "SEO", "TVET Solutions"],
+            "A modern corporate platform developed for a multidisciplinary consulting firm, presenting its expertise, services, industries, case studies, and consulting capabilities through a refined, conversion-focused digital experience.",
+        services: [
+            "Corporate Website",
+            "Frontend Development",
+            "UI/UX Design",
+            "Brand Positioning",
+            "SEO",
+        ],
     },
     {
         title: "Biospan Medical Solutions Limited",
@@ -32,18 +38,12 @@ export const projects = [
         services: ["Corporate Website", "Brand Positioning", "SEO", "UI/UX Design"],
     },
     {
-        title: "Aidest Consulting Group Limited",
-        category: "Multidisciplinary Consulting Firm",
-        url: "https://www.aidest.co.ke",
+        title: "Nairobi Institute of Medical and Emergency Training",
+        category: "Healthcare Training Institution",
+        url: "https://www.nimet.ac.ke",
         description:
-            "A modern corporate platform developed for a multidisciplinary consulting firm, presenting its expertise, services, industries, case studies, and consulting capabilities through a refined, conversion-focused digital experience.",
-        services: [
-            "Corporate Website",
-            "Frontend Development",
-            "UI/UX Design",
-            "Brand Positioning",
-            "SEO",
-        ],
+            "A modern institutional website developed for a TVET-accredited healthcare training institution offering emergency medical and health sciences programmes.",
+        services: ["Institutional Website", "Web Development", "SEO", "TVET Solutions"],
     },
     {
         title: "Dr. Peter Waweru",
@@ -69,7 +69,7 @@ export const projects = [
     {
         title: "Llorick Consulting",
         category: "Global Health Advisory Firm",
-        url: "https://www.llorickconsulting.com",
+        url: "https://www.llorick-consulting.vercel.app", //"https://www.llorickconsulting.com",
         description:
             "A premium consulting website for a global health advisory firm specializing in public health, research, policy, monitoring and evaluation, training, and international development.",
         services: ["Corporate Website", "UI/UX Design", "SEO", "Brand Identity"],
