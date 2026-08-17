@@ -6,6 +6,7 @@ import {
     FaXTwitter,
     FaInstagram,
     FaArrowRight,
+    FaGithub,
 } from "react-icons/fa6";
 
 const footerGroups = [
@@ -100,6 +101,11 @@ const socials = [
         name: "Instagram",
         icon: FaInstagram,
         link: "https://www.instagram.com/kennedymaurice1",
+    },
+    {
+        name: "Github",
+        icon: FaGithub,
+        link: "https://github.com/kennedymaurice",
     },
 ];
 
