@@ -16,6 +16,20 @@ export const projects = [
         services: ["Corporate Website", "Healthcare Consultancy", "SEO", "Brand Positioning"],
     },
     {
+        title: "Quick Safe Ambulance Services Limited",
+        category: "Emergency Medical & Ambulance Services",
+        url: "https://www.quicksafe.co.ke",
+        description:
+            "A professional digital platform developed for an emergency medical services provider offering 24/7 ambulance response, advanced life support, critical care transport, medical standby, and emergency evacuation services.",
+        services: [
+            "Corporate Website",
+            "Emergency Medical Services",
+            "UI/UX Design",
+            "SEO",
+            "Digital Strategy",
+        ],
+    },
+    {
         title: "Aidest Consulting Group Limited",
         category: "Multidisciplinary Consulting Firm",
         url: "https://www.aidestconsulting.co.ke",
@@ -69,7 +83,7 @@ export const projects = [
     {
         title: "Llorick Consulting",
         category: "Global Health Advisory Firm",
-        url: "https://www.llorick-consulting.vercel.app", //"https://www.llorickconsulting.com",
+        url: "https://www.llorick-consulting.vercel.app", // "https://www.llorickconsulting.com",
         description:
             "A premium consulting website for a global health advisory firm specializing in public health, research, policy, monitoring and evaluation, training, and international development.",
         services: ["Corporate Website", "UI/UX Design", "SEO", "Brand Identity"],
