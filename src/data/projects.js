@@ -52,6 +52,14 @@ export const projects = [
         services: ["Corporate Website", "Brand Positioning", "SEO", "UI/UX Design"],
     },
     {
+        title: "Llorick Consulting",
+        category: "Global Health Advisory Firm",
+        url: "https://www.llorickconsulting.com",
+        description:
+            "A premium consulting website for a global health advisory firm specializing in public health, research, policy, monitoring and evaluation, training, and international development.",
+        services: ["Corporate Website", "UI/UX Design", "SEO", "Brand Identity"],
+    },
+    {
         title: "Nairobi Institute of Medical and Emergency Training",
         category: "Healthcare Training Institution",
         url: "https://www.nimet.ac.ke",
@@ -79,13 +87,5 @@ export const projects = [
             "UI/UX Design",
             "Professional Positioning",
         ],
-    },
-    {
-        title: "Llorick Consulting",
-        category: "Global Health Advisory Firm",
-        url: "https://www.llorick-consulting.vercel.app", // "https://www.llorickconsulting.com",
-        description:
-            "A premium consulting website for a global health advisory firm specializing in public health, research, policy, monitoring and evaluation, training, and international development.",
-        services: ["Corporate Website", "UI/UX Design", "SEO", "Brand Identity"],
     },
 ];
